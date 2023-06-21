@@ -17,3 +17,4 @@ bossbar set timer: style notched_10
 bossbar set timer: color red
 
 scoreboard players set #60 _ 60
+scoreboard players set #20 _ 20
