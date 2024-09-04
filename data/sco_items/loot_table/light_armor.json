@@ -1,78 +1,81 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "chainmail_chestplate",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "ライトアーマー",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_lore",
-                "lore": [
-                  "魔力を宿した軽防具"
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.movement_speed",
-                    "id": "sco_items:light_armor",
-                    "amount": 0.35,
-                    "operation": "add_multiplied_base",
-                    "slot": "chest"
-                  },
-                  {
-                    "attribute": "generic.armor",
-                    "id": "sco_items:light_armor",
-                    "amount": 3.5,
-                    "operation": "add_value",
-                    "slot": "chest"
-                  },
-                  {
-                    "attribute": "generic.armor_toughness",
-                    "id": "sco_items:light_armor",
-                    "amount": 3,
-                    "operation": "add_value",
-                    "slot": "chest"
-                  },
-                  {
-                    "attribute": "generic.attack_damage",
-                    "id": "sco_items:light_armor",
-                    "amount": 0.5,
-                    "operation": "add_value",
-                    "slot": "chest"
-                  },
-                  {
-                    "attribute": "generic.max_health",
-                    "id": "sco_items:light_armor",
-                    "amount": -4,
-                    "operation": "add_value",
-                    "slot": "chest"
-                  }
-                ]
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "binding_curse": 1,
-                  "feather_falling": 1,
-                  "sco_items:magic_protection": 5
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "chainmail_chestplate",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.light_armor",
+								"fallback": "ライトアーマー",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "item.sco_items.light_armor.description.0",
+									"fallback": "魔力を宿した軽防具"
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.movement_speed",
+									"id": "sco_items:light_armor",
+									"amount": 0.35,
+									"operation": "add_multiplied_base",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.armor",
+									"id": "sco_items:light_armor",
+									"amount": 3.5,
+									"operation": "add_value",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.armor_toughness",
+									"id": "sco_items:light_armor",
+									"amount": 3,
+									"operation": "add_value",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.attack_damage",
+									"id": "sco_items:light_armor",
+									"amount": 0.5,
+									"operation": "add_value",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.max_health",
+									"id": "sco_items:light_armor",
+									"amount": -4,
+									"operation": "add_value",
+									"slot": "chest"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"binding_curse": 1,
+								"feather_falling": 1,
+								"sco_items:magic_protection": 5
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

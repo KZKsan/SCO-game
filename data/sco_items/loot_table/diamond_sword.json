@@ -10,7 +10,8 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "ダイヤモンドソード",
+                  "translate": "item.sco_items.diamond_sword",
+                  "fallback": "ダイヤモンドソード",
                   "italic": false
                 }
               }

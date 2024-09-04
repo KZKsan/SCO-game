@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "与一の弓",
+                                "translate": "item.sco_items.yoichis_bow",
+                                "fallback": "与一の弓",
                                 "italic": false
                             }
                         },

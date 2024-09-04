@@ -10,7 +10,7 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "タートルポーション",
+                                "translate": "item.minecraft.potion.effect.turtle_master",
                                 "italic": false
                             }
                         },

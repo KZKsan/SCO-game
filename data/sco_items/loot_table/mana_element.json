@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "マナの素",
+                                "translate": "item.sco_items.mana_element",
+                                "fallback": "マナの素",
                                 "italic": false,
                                 "color": "white"
                             }

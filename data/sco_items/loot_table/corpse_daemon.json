@@ -1,178 +1,184 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "stone_sword",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "text": "腐敗の剣コープ・ディーモ",
-                    "color": "dark_purple",
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "set_lore",
-                "lore": [
-                  "攻撃した相手を干からびさせる。",
-                  "生きている者は使用できない。",
-                  "",
-                  [
-                    {
-                      "translate": "effect.minecraft.wither",
-                      "color": "#00CCAA",
-                      "italic": false
-                    },
-                    " A:3, D:1s"
-                  ],
-                  "",
-                  [
-                    {
-                      "translate": "effect.minecraft.wither",
-                      "color": "#AA0000",
-                      "italic": false
-                    },
-                    " A:2, D:2s"
-                  ],
-                  [
-                    {
-                      "translate": "effect.minecraft.blindness",
-                      "color": "#AA0000",
-                      "italic": false
-                    },
-                    " A:0, D:5s"
-                  ],
-                  [
-                    {
-                      "translate": "effect.minecraft.nausea",
-                      "color": "#AA0000",
-                      "italic": false
-                    },
-                    " A:0, D:2s"
-                  ],
-                  [
-                    {
-                      "translate": "effect.minecraft.weakness",
-                      "color": "#AA0000",
-                      "italic": false
-                    },
-                    " A:0, D:3s"
-                  ],
-                  "",
-                  {
-                    "translate": "item.modifiers.mainhand",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  [
-                    {
-                      "translate": "attribute.name.generic.attack_speed",
-                      "color": "red",
-                      "italic": false
-                    },
-                    {
-                      "text": " -70%",
-                      "color": "red",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "translate": "attribute.name.generic.attack_damage",
-                      "color": "blue",
-                      "italic": false
-                    },
-                    {
-                      "text": " +2",
-                      "color": "blue",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "translate": "effect.minecraft.blindness",
-                      "color": "#00CCAA",
-                      "italic": false
-                    },
-                    " A:0, D:8s"
-                  ],
-                  [
-                    {
-                      "translate": "effect.minecraft.mining_fatigue",
-                      "color": "#00CCAA",
-                      "italic": false
-                    },
-                    " A:9, D:8s"
-                  ],
-                  [
-                    {
-                      "translate": "effect.minecraft.slowness",
-                      "color": "#00CCAA",
-                      "italic": false
-                    },
-                    " A:1, D:8s"
-                  ]
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.attack_speed",
-                    "id": "sco_items:corpse_daemon",
-                    "amount": -0.7,
-                    "operation": "add_multiplied_total",
-                    "slot": "mainhand"
-                  },
-                  {
-                    "attribute": "generic.attack_damage",
-                    "id": "sco_items:corpse_daemon",
-                    "amount": 2,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  }
-                ]
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "sharpness": 1,
-                  "sweeping_edge": 1
-                }
-              },
-              {
-                "function": "toggle_tooltips",
-                "toggles": {
-                  "attribute_modifiers": false
-                }
-              },
-              {
-                "function": "set_components",
-                "components": {
-                  "hide_additional_tooltip": {}
-                }
-              },
-              {
-                "function": "set_components",
-                "components": {
-                  "damage": 118
-                }
-              },
-              {
-                "function": "set_custom_data",
-                "tag": "{item_functions:{corpse_daemon:1b}}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "stone_sword",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": [
+								{
+									"translate": "item.sco_items.corpse_daemon",
+									"fallback": "腐敗の剣コープ・ディーモ",
+									"color": "dark_purple",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "item.sco_items.corpse_daemon.description.0",
+									"fallback": "攻撃した相手を干からびさせる。"
+								},
+								{
+									"translate": "item.sco_items.corpse_daemon.description.1",
+									"fallback": "生きている者は使用できない。"
+								},
+								"",
+								[
+									{
+										"translate": "effect.minecraft.wither",
+										"color": "#00CCAA",
+										"italic": false
+									},
+									" A:3, D:1s"
+								],
+								"",
+								[
+									{
+										"translate": "effect.minecraft.wither",
+										"color": "#AA0000",
+										"italic": false
+									},
+									" A:2, D:2s"
+								],
+								[
+									{
+										"translate": "effect.minecraft.blindness",
+										"color": "#AA0000",
+										"italic": false
+									},
+									" A:0, D:5s"
+								],
+								[
+									{
+										"translate": "effect.minecraft.nausea",
+										"color": "#AA0000",
+										"italic": false
+									},
+									" A:0, D:2s"
+								],
+								[
+									{
+										"translate": "effect.minecraft.weakness",
+										"color": "#AA0000",
+										"italic": false
+									},
+									" A:0, D:3s"
+								],
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									{
+										"translate": "attribute.name.generic.attack_speed",
+										"color": "red",
+										"italic": false
+									},
+									{
+										"text": " -70%",
+										"color": "red",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "attribute.name.generic.attack_damage",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"text": " +2",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "effect.minecraft.blindness",
+										"color": "#00CCAA",
+										"italic": false
+									},
+									" A:0, D:8s"
+								],
+								[
+									{
+										"translate": "effect.minecraft.mining_fatigue",
+										"color": "#00CCAA",
+										"italic": false
+									},
+									" A:9, D:8s"
+								],
+								[
+									{
+										"translate": "effect.minecraft.slowness",
+										"color": "#00CCAA",
+										"italic": false
+									},
+									" A:1, D:8s"
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.attack_speed",
+									"id": "sco_items:corpse_daemon",
+									"amount": -0.7,
+									"operation": "add_multiplied_total",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "generic.attack_damage",
+									"id": "sco_items:corpse_daemon",
+									"amount": 2,
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"sharpness": 1,
+								"sweeping_edge": 1
+							}
+						},
+						{
+							"function": "toggle_tooltips",
+							"toggles": {
+								"attribute_modifiers": false
+							}
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"hide_additional_tooltip": {}
+							}
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"damage": 118
+							}
+						},
+						{
+							"function": "set_custom_data",
+							"tag": "{item_functions:{corpse_daemon:1b}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

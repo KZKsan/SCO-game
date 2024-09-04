@@ -1,71 +1,74 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "leather_boots",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "プツオブーツ",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_lore",
-                "lore": [
-                  "跳躍力が大幅に上昇する伝説のブーツ",
-                  "",
-                  [
-                    {
-                      "translate": "effect.minecraft.jump_boost",
-                      "color": "#00CCAA",
-                      "italic": false
-                    },
-                    " A:3, D:2s"
-                  ]
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.movement_speed",
-                    "id": "sco_items:putuo_boots",
-                    "amount": 0.1,
-                    "operation": "add_multiplied_total",
-                    "slot": "feet"
-                  }
-                ]
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "feather_falling": 4,
-                  "unbreaking": 10
-                }
-              },
-              {
-                "function": "set_components",
-                "components": {
-                  "dyed_color": {
-                    "rgb": 3289650,
-                    "show_in_tooltip": false
-                  }
-                }
-              },
-              {
-                "function": "set_custom_data",
-                "tag": "{item_functions:{passive_effects:[{id:\"jump_boost\",duration:2,amplifier:3,hide_particle:\"false\"}]}}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "leather_boots",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.putuo_boots",
+								"fallback": "プツオブーツ",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "item.sco_items.putuo_boots.description.0",
+									"fallback": "跳躍力が大幅に上昇する伝説のブーツ"
+								},
+								"",
+								[
+									{
+										"translate": "effect.minecraft.jump_boost",
+										"color": "#00CCAA",
+										"italic": false
+									},
+									" A:3, D:2s"
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.movement_speed",
+									"id": "sco_items:putuo_boots",
+									"amount": 0.1,
+									"operation": "add_multiplied_total",
+									"slot": "feet"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"feather_falling": 4,
+								"unbreaking": 10
+							}
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"dyed_color": {
+									"rgb": 3289650,
+									"show_in_tooltip": false
+								}
+							}
+						},
+						{
+							"function": "set_custom_data",
+							"tag": "{item_functions:{passive_effects:[{id:\"jump_boost\",duration:2,amplifier:3,hide_particle:\"false\"}]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

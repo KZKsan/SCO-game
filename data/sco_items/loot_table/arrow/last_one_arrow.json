@@ -11,7 +11,8 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "text": "最後の一撃",
+                                    "translate": "item.sco_items.last_one_arrow",
+                                    "fallback": "最後の一撃",
                                     "color": "dark_red",
                                     "bold": true,
                                     "italic": false
@@ -22,7 +23,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "とてつもない火力で敵を撃ち滅ぼす"
+                                    "translate": "item.sco_items.last_one_arrow.description.0",
+                                    "fallback": "とてつもない火力で敵を撃ち滅ぼす"
                                 }
                             ],
                             "mode": "replace_all"

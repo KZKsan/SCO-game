@@ -1,46 +1,46 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "iron_shovel",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "レイピア",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.attack_speed",
-                    "id": "sco_items:rapier",
-                    "amount": 1,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  },
-                  {
-                    "attribute": "generic.attack_damage",
-                    "id": "sco_items:rapier",
-                    "amount": 3,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  }
-                ]
-              },
-              {
-                "function": "set_custom_data",
-                "tag": "{item_functions:{shield_stan:1b}}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "iron_shovel",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.rapier",
+								"fallback": "レイピア",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.attack_speed",
+									"id": "sco_items:rapier",
+									"amount": 1,
+									"operation": "add_value",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "generic.attack_damage",
+									"id": "sco_items:rapier",
+									"amount": 3,
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "set_custom_data",
+							"tag": "{item_functions:{shield_stan:1b}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

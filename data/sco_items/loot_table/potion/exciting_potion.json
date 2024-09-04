@@ -10,14 +10,18 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "興奮のポーション",
+                                "translate": "item.sco_items.exciting_potion",
+                                "fallback": "興奮のポーション",
                                 "italic": false
                             }
                         },
                         {
                             "function": "set_lore",
                             "lore": [
-                                "短時間身体機能を大幅に向上させる"
+                                {
+                                    "translate": "item.sco_items.exciting_potion.description.0",
+                                    "fallback": "短時間身体機能を大幅に向上させる"
+                                }
                             ],
                             "mode": "replace_all"
                         },

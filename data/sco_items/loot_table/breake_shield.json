@@ -1,87 +1,91 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "shield",
-          "functions": [
-            {
-              "function": "set_name",
-              "name": {
-                "text": "ブレークシールド",
-                "color": "dark_red",
-                "italic": false
-              }
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "内部にブースターを搭載した盾",
-                  "color": "white",
-                  "italic": false
-                },
-                {
-                  "text": "攻撃を防ぐと一時的に速度と攻撃力が上がる",
-                  "color": "white",
-                  "italic": false
-                },
-                "",
-                {
-                  "text": "攻撃を防いだとき:",
-                  "color": "gray",
-                  "italic": false
-                },
-                [
-                  {
-                    "translate": "effect.minecraft.speed",
-                    "color": "#00CCAA",
-                    "italic": false
-                  },
-                  " A:1, D:2s"
-                ],
-                [
-                  {
-                    "translate": "effect.minecraft.strength",
-                    "color": "#00CCAA",
-                    "italic": false
-                  },
-                  " A:0, D:5s"
-                ]
-              ],
-              "mode": "replace_all"
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "hide_additional_tooltip": {},
-                "damage": 296,
-                "base_color": "red",
-                "banner_patterns": [
-                  {
-                    "pattern": "small_stripes",
-                    "color": "gray"
-                  },
-                  {
-                    "pattern": "bricks",
-                    "color": "gray"
-                  },
-                  {
-                    "pattern": "gradient",
-                    "color": "gray"
-                  }
-                ]
-              }
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{item_functions:{breake_shield:1b}}"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "shield",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.breake_shield",
+								"fallback": "ブレークシールド",
+								"color": "dark_red",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "item.sco_items.breake_shield.description.0",
+									"fallback": "内部にブースターを搭載した盾",
+									"color": "white",
+									"italic": false
+								},
+								{
+									"translate": "item.sco_items.breake_shield.description.1",
+									"fallback": "攻撃を防ぐと一時的に速度と攻撃力が上がる",
+									"color": "white",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "item.modifiers.damage_blocked",
+									"fallback": "攻撃を防いだとき:",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									{
+										"translate": "effect.minecraft.speed",
+										"color": "#00CCAA",
+										"italic": false
+									},
+									" A:1, D:2s"
+								],
+								[
+									{
+										"translate": "effect.minecraft.strength",
+										"color": "#00CCAA",
+										"italic": false
+									},
+									" A:0, D:5s"
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"hide_additional_tooltip": {},
+								"damage": 296,
+								"base_color": "red",
+								"banner_patterns": [
+									{
+										"pattern": "small_stripes",
+										"color": "gray"
+									},
+									{
+										"pattern": "bricks",
+										"color": "gray"
+									},
+									{
+										"pattern": "gradient",
+										"color": "gray"
+									}
+								]
+							}
+						},
+						{
+							"function": "set_custom_data",
+							"tag": "{item_functions:{breake_shield:1b}}"
+						}
+					]
+				}
+			]
+		}
+	]
 }

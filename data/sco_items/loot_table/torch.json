@@ -11,11 +11,13 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "10時間かけて強化されたたいまつ",
+                                    "translate": "item.sco_items.torch.description.0",
+                                    "fallback": "10時間かけて強化されたたいまつ",
                                     "color": "white"
                                 },
                                 {
-                                    "text": "先端の温度は3000度以上もある",
+                                    "translate": "item.sco_items.torch.description.1",
+                                    "fallback": "先端の温度は3000度以上もある",
                                     "color": "white"
                                 }
                             ],
@@ -24,7 +26,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "たいまつ Lv: 10",
+                                "translate": "item.sco_items.torch",
+                                "fallback": "たいまつ Lv: 10",
                                 "color": "gold",
                                 "italic": false
                             }

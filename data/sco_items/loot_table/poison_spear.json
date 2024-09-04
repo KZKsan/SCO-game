@@ -1,77 +1,79 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "diamond_shovel",
-          "functions": [
-            {
-              "function": "set_name",
-              "name": {
-                "text": "毒槍",
-                "italic": false
-              }
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "先端に毒を塗り込んだ短槍",
-                  "italic": false
-                },
-                "",
-                [
-                  {
-                    "translate": "effect.minecraft.poison",
-                    "color": "#AA0000",
-                    "italic": false
-                  },
-                  " A:0, D:5s"
-                ]
-              ],
-              "mode": "replace_all"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.attack_speed",
-                  "id": "sco_items:poison_spear",
-                  "amount": -3,
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                },
-                {
-                  "attribute": "generic.attack_damage",
-                  "id": "sco_items:poison_spear",
-                  "amount": 4.5,
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                },
-                {
-                  "attribute": "player.entity_interaction_range",
-                  "id": "sco_items:poison_spear",
-                  "amount": 0.75,
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                }
-              ]
-            },
-            {
-              "function": "set_enchantments",
-              "enchantments": {
-                "unbreaking": 3
-              }
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{item_functions:{poison_spear:1b}}"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "diamond_shovel",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.poison_spear",
+								"fallback": "毒槍",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "item.sco_items.poison_spear.description.0",
+									"fallback": "先端に毒を塗り込んだ短槍",
+									"italic": false
+								},
+								"",
+								[
+									{
+										"translate": "effect.minecraft.poison",
+										"color": "#AA0000",
+										"italic": false
+									},
+									" A:0, D:5s"
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.attack_speed",
+									"id": "sco_items:poison_spear",
+									"amount": -3,
+									"operation": "add_value",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "generic.attack_damage",
+									"id": "sco_items:poison_spear",
+									"amount": 4.5,
+									"operation": "add_value",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "player.entity_interaction_range",
+									"id": "sco_items:poison_spear",
+									"amount": 0.75,
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"unbreaking": 3
+							}
+						},
+						{
+							"function": "set_custom_data",
+							"tag": "{item_functions:{poison_spear:1b}}"
+						}
+					]
+				}
+			]
+		}
+	]
 }

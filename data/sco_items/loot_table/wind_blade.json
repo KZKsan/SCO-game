@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "風切りの刃",
+                                "translate": "item.sco_items.wind_blade",
+                                "fallback": "風切りの刃",
                                 "italic": false
                             }
                         },

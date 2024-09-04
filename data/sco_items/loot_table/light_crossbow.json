@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "ライトクロスボウ",
+                                "translate": "item.sco_items.light_crossbow",
+                                "fallback": "ライトクロスボウ",
                                 "italic": false
                             }
                         },

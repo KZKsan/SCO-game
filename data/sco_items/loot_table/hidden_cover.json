@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "隠れ蓑",
+                                "translate": "item.sco_items.hidden_cover",
+                                "fallback": "隠れ蓑",
                                 "italic": false
                             }
                         },
@@ -18,12 +19,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "translate": "手に持って[%s]で、身を潜めることができる。",
-                                    "with": [
-                                        {
-                                            "keybind": "key.sneak"
-                                        }
-                                    ]
+                                    "translate": "item.sco_items.hidden_cover.description.0",
+                                    "fallback": "身を潜めることができる。"
                                 }
                             ],
                             "mode": "replace_all"

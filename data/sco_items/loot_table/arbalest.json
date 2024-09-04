@@ -1,71 +1,72 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "crossbow",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "アーバレスト",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_lore",
-                "lore": [
-                  "",
-                  {
-                    "text": "手に持ったとき：",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  [
-                    {
-                      "translate": "attribute.name.generic.armor",
-                      "color": "red",
-                      "italic": false
-                    },
-                    {
-                      "text": " -2",
-                      "color": "red",
-                      "italic": false
-                    }
-                  ]
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "piercing": 1
-                }
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.armor",
-                    "id": "sco_items:arbalest",
-                    "amount": -2,
-                    "operation": "add_value",
-                    "slot": "hand"
-                  }
-                ]
-              },
-              {
-                "function": "toggle_tooltips",
-                "toggles": {
-                  "attribute_modifiers": false
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "crossbow",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.arbalest",
+								"fallback": "アーバレスト",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "item.modifiers.hand",
+									"fallback": "手に持ったとき：",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									{
+										"translate": "attribute.name.generic.armor",
+										"color": "red",
+										"italic": false
+									},
+									{
+										"text": " -2",
+										"color": "red",
+										"italic": false
+									}
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"piercing": 1
+							}
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.armor",
+									"id": "sco_items:arbalest",
+									"amount": -2,
+									"operation": "add_value",
+									"slot": "hand"
+								}
+							]
+						},
+						{
+							"function": "toggle_tooltips",
+							"toggles": {
+								"attribute_modifiers": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

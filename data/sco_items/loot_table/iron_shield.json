@@ -1,131 +1,131 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "shield",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "アイアンシールド",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_lore",
-                "lore": [
-                  "",
-                  {
-                    "text": "手に持ったとき：",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  [
-                    {
-                      "translate": "attribute.name.generic.movement_speed",
-                      "color": "red",
-                      "italic": false
-                    },
-                    {
-                      "text": " -30%",
-                      "color": "red",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "translate": "attribute.name.generic.knockback_resistance",
-                      "color": "blue",
-                      "italic": false
-                    },
-                    {
-                      "text": " +6",
-                      "color": "blue",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "translate": "attribute.name.generic.armor",
-                      "color": "blue",
-                      "italic": false
-                    },
-                    {
-                      "text": " +2",
-                      "color": "blue",
-                      "italic": false
-                    }
-                  ]
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.movement_speed",
-                    "id": "sco_items:iron_shield",
-                    "amount": -0.3,
-                    "operation": "add_multiplied_base",
-                    "slot": "hand"
-                  },
-                  {
-                    "attribute": "generic.knockback_resistance",
-                    "id": "sco_items:iron_shield",
-                    "amount": 0.6,
-                    "operation": "add_value",
-                    "slot": "hand"
-                  },
-                  {
-                    "attribute": "generic.armor",
-                    "id": "sco_items:iron_shield",
-                    "amount": 2,
-                    "operation": "add_value",
-                    "slot": "hand"
-                  }
-                ]
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "unbreaking": 1
-                }
-              },
-              {
-                "function": "toggle_tooltips",
-                "toggles": {
-                  "attribute_modifiers": false
-                }
-              },
-              {
-                "function": "set_components",
-                "components": {
-                  "damage": 246,
-                  "base_color": "gray",
-                  "banner_patterns": [
-                    {
-                      "pattern": "small_stripes",
-                      "color": "white"
-                    },
-                    {
-                      "pattern": "gradient",
-                      "color": "white"
-                    },
-                    {
-                      "pattern": "gradient_up",
-                      "color": "white"
-                    }
-                  ],
-                  "hide_additional_tooltip": {}
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "shield",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.iron_shield",
+								"fallback": "アイアンシールド",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "item.modifiers.hand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									{
+										"translate": "attribute.name.generic.movement_speed",
+										"color": "red",
+										"italic": false
+									},
+									{
+										"text": " -30%",
+										"color": "red",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "attribute.name.generic.knockback_resistance",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"text": " +6",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "attribute.name.generic.armor",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"text": " +2",
+										"color": "blue",
+										"italic": false
+									}
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.movement_speed",
+									"id": "sco_items:iron_shield",
+									"amount": -0.3,
+									"operation": "add_multiplied_base",
+									"slot": "hand"
+								},
+								{
+									"attribute": "generic.knockback_resistance",
+									"id": "sco_items:iron_shield",
+									"amount": 0.6,
+									"operation": "add_value",
+									"slot": "hand"
+								},
+								{
+									"attribute": "generic.armor",
+									"id": "sco_items:iron_shield",
+									"amount": 2,
+									"operation": "add_value",
+									"slot": "hand"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"unbreaking": 1
+							}
+						},
+						{
+							"function": "toggle_tooltips",
+							"toggles": {
+								"attribute_modifiers": false
+							}
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"damage": 246,
+								"base_color": "gray",
+								"banner_patterns": [
+									{
+										"pattern": "small_stripes",
+										"color": "white"
+									},
+									{
+										"pattern": "gradient",
+										"color": "white"
+									},
+									{
+										"pattern": "gradient_up",
+										"color": "white"
+									}
+								],
+								"hide_additional_tooltip": {}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

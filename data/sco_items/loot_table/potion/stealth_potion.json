@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "ステルスポーション",
+                                "translate": "item.sco_items.stealth_potion",
+                                "fallback": "ステルスポーション",
                                 "color": "white",
                                 "italic": false
                             }

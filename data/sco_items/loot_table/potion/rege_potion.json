@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "残留ヒールポーション",
+                                "translate": "item.sco_items.rege_potion",
+                                "fallback": "残留ヒールポーション",
                                 "color": "white",
                                 "italic": false
                             }

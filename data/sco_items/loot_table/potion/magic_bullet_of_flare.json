@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "フレアの魔弾",
+                                "translate": "item.sco_items.magic_bullet_of_flare",
+                                "fallback": "フレアの魔弾",
                                 "italic": false
                             }
                         },

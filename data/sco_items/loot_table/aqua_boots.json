@@ -1,68 +1,68 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "leather_boots",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "アクアブーツ",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_lore",
-                "lore": [
-                  [
-                    {
-                      "translate": "effect.minecraft.dolphins_grace",
-                      "color": "#00CCAA",
-                      "italic": false
-                    },
-                    " A:0, D:1s"
-                  ]
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.armor",
-                    "id": "sco_items:aqua_boots",
-                    "amount": 1,
-                    "operation": "add_value",
-                    "slot": "feet"
-                  }
-                ]
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "unbreaking": 10
-                }
-              },
-              {
-                "function": "set_components",
-                "components": {
-                  "dyed_color": {
-                    "rgb": 56831,
-                    "show_in_tooltip": false
-                  }
-                }
-              },
-              {
-                "function": "set_custom_data",
-                "tag": "{item_functions:{passive_effects:[{id:\"dolphins_grace\",duration:1,amplifier:0,hide_particle:\"false\"}]}}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "leather_boots",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.aqua_boots",
+								"fallback": "アクアブーツ",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								[
+									{
+										"translate": "effect.minecraft.dolphins_grace",
+										"color": "#00CCAA",
+										"italic": false
+									},
+									" A:0, D:1s"
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.armor",
+									"id": "sco_items:aqua_boots",
+									"amount": 1,
+									"operation": "add_value",
+									"slot": "feet"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"unbreaking": 10
+							}
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"dyed_color": {
+									"rgb": 56831,
+									"show_in_tooltip": false
+								}
+							}
+						},
+						{
+							"function": "set_custom_data",
+							"tag": "{item_functions:{passive_effects:[{id:\"dolphins_grace\",duration:1,amplifier:0,hide_particle:\"false\"}]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

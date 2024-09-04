@@ -1,64 +1,66 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "iron_horse_armor"
-        }
-      ],
-      "functions": [
-        {
-          "function": "set_name",
-          "name": {
-            "text": "戦闘服",
-            "color": "gray",
-            "bold": true,
-            "italic": false
-          }
-        },
-        {
-          "function": "set_lore",
-          "lore": [
-            {
-              "text": "重ね着をして強くなる",
-              "color": "white",
-              "italic": false
-            },
-            "",
-            {
-              "text": "インベントリにあるとき:",
-              "color": "gray",
-              "italic": false
-            },
-            [
-              {
-                "translate": "attribute.name.generic.armor",
-                "fallback": "防具",
-                "color": "blue",
-                "italic": false
-              },
-              {
-                "text": " +3",
-                "color": "blue",
-                "italic": false
-              }
-            ]
-          ],
-          "mode": "replace_all"
-        },
-        {
-          "function": "set_custom_data",
-          "tag": "{item_functions:{combat_cloth:1b}}"
-        },
-        {
-          "function": "toggle_tooltips",
-          "toggles": {
-            "attribute_modifiers": false
-          }
-        }
-      ]
-    }
-  ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "iron_horse_armor"
+				}
+			],
+			"functions": [
+				{
+					"function": "set_name",
+					"name": {
+						"translate": "item.sco_items.combat_cloth",
+						"fallback": "戦闘服",
+						"color": "gray",
+						"bold": true,
+						"italic": false
+					}
+				},
+				{
+					"function": "set_lore",
+					"lore": [
+						{
+							"translate": "item.sco_items.combat_cloth.description.0",
+							"fallback": "重ね着をして強くなる",
+							"color": "white",
+							"italic": false
+						},
+						"",
+						{
+							"translate": "item.modifiers.inventory",
+							"fallback": "インベントリにあるとき:",
+							"color": "gray",
+							"italic": false
+						},
+						[
+							{
+								"translate": "attribute.name.generic.armor",
+								"color": "blue",
+								"italic": false
+							},
+							{
+								"text": " +3",
+								"color": "blue",
+								"italic": false
+							}
+						]
+					],
+					"mode": "replace_all"
+				},
+				{
+					"function": "set_custom_data",
+					"tag": "{item_functions:{combat_cloth:1b}}"
+				},
+				{
+					"function": "toggle_tooltips",
+					"toggles": {
+						"attribute_modifiers": false
+					}
+				}
+			]
+		}
+	]
 }

@@ -10,15 +10,22 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "鋼鉄の戦鎚",
+                                "translate": "item.sco_items.steel_war_hammer",
+                                "fallback": "鋼鉄の戦鎚",
                                 "italic": false
                             }
                         },
                         {
                             "function": "set_lore",
                             "lore": [
-                                "圧倒的な攻撃力を誇るが",
-                                "まともに扱える者は限られている"
+                                {
+                                    "translate": "item.sco_items.steel_war_hammer.description.0",
+                                    "fallback": "圧倒的な攻撃力を誇るが"
+                                },
+                                {
+                                    "translate": "item.sco_items.steel_war_hammer.description.1",
+                                    "fallback": "まともに扱える者は限られている"
+                                }
                             ],
                             "mode": "replace_all"
                         },

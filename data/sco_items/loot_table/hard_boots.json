@@ -10,7 +10,8 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "ハードブーツ",
+                  "translate": "item.sco_items.hard_boots",
+                  "fallback": "ハードブーツ",
                   "italic": false
                 }
               },

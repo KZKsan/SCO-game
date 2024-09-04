@@ -29,7 +29,8 @@
                                 },
                                 "",
                                 {
-                                    "text": "手に持ったとき：",
+                                    "translate": "item.modifiers.hand",
+                                    "fallback": "手に持ったとき：",
                                     "color": "gray",
                                     "italic": false
                                 },

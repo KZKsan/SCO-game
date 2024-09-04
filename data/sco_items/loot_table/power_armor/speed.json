@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "パワーアーマー[Speed]",
+                                "translate": "item.sco_items.power_armor.speed",
+                                "fallback": "パワーアーマー[Speed]",
                                 "italic": false,
                                 "color": "blue"
                             }
@@ -18,7 +19,10 @@
                         {
                             "function": "set_lore",
                             "lore": [
-                                "着用者の力をアシストする装備",
+                                {
+                                    "translate": "item.sco_items.power_armor.description.0",
+                                    "fallback": "着用者の力をアシストする装備"
+                                },
                                 "",
                                 [
                                     {
@@ -56,7 +60,7 @@
                         {
                             "function": "set_enchantments",
                             "enchantments": {
-                                "unbreaking" :3,
+                                "unbreaking": 3,
                                 "depth_strider": 1
                             }
                         },

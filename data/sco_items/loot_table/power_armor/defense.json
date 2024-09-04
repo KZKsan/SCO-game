@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "パワーアーマー[Defense]",
+                                "translate": "item.sco_items.power_armor.defense",
+                                "fallback": "パワーアーマー[Defense]",
                                 "italic": false,
                                 "color": "yellow"
                             }
@@ -18,7 +19,10 @@
                         {
                             "function": "set_lore",
                             "lore": [
-                                "着用者の力をアシストする装備"
+                                {
+                                    "translate": "item.sco_items.power_armor.description.0",
+                                    "fallback": "着用者の力をアシストする装備"
+                                }
                             ],
                             "mode": "replace_all"
                         },
@@ -47,7 +51,7 @@
                         {
                             "function": "set_enchantments",
                             "enchantments": {
-                                "projectile_protection" :3
+                                "projectile_protection": 3
                             }
                         }
                     ]

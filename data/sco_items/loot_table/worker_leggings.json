@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "勤労のズボン",
+                                "translate": "item.sco_items.worker_leggings",
+                                "fallback": "勤労のズボン",
                                 "color": "white",
                                 "italic": false
                             }

@@ -10,7 +10,8 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "ダイヤアーマー",
+                  "translate": "item.sco_items.diamond_armor",
+                  "fallback": "ダイヤアーマー",
                   "italic": false
                 }
               },

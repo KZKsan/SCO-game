@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "鬼化のポーション",
+                                "translate": "item.sco_items.demonization_potion",
+                                "fallback": "鬼化のポーション",
                                 "italic": false
                             }
                         },

@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "フローズンポーション",
+                                "translate": "item.sco_items.frozen_potion",
+                                "fallback": "フローズンポーション",
                                 "italic": false
                             }
                         },

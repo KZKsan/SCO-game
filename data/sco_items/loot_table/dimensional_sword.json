@@ -1,70 +1,73 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "diamond_sword",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "次元剣",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_lore",
-                "lore": [
-                  "攻撃後、時空の影響を受けている敵にはダメージが通らない。",
-                  "",
-                  [
-                    {
-                      "translate": "effect.minecraft.absorption",
-                      "color": "#AA0000",
-                      "italic": false
-                    },
-                    " A:5, D:3s"
-                  ]
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.attack_speed",
-                    "id": "sco_items:dimensional_sword",
-                    "amount": -2.4,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  },
-                  {
-                    "attribute": "generic.attack_damage",
-                    "id": "sco_items:dimensional_sword",
-                    "amount": 12,
-                    "operation": "add_value",
-                    "slot": "mainhand"
-                  }
-                ]
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "unbreaking": 10,
-                  "sweeping_edge": 3,
-                  "breach": 1
-                }
-              },
-              {
-                "function": "set_custom_data",
-                "tag": "{item_functions:{dimensional_sword:1b}}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "diamond_sword",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.dimensional_sword",
+								"fallback": "次元剣",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "item.sco_items.dimensional_sword.description.0",
+									"fallback": "攻撃後、時空の影響を受けている敵にはダメージが通らない。"
+								},
+								"",
+								[
+									{
+										"translate": "effect.minecraft.absorption",
+										"color": "#AA0000",
+										"italic": false
+									},
+									" A:5, D:3s"
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.attack_speed",
+									"id": "sco_items:dimensional_sword",
+									"amount": -2.4,
+									"operation": "add_value",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "generic.attack_damage",
+									"id": "sco_items:dimensional_sword",
+									"amount": 12,
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"unbreaking": 10,
+								"sweeping_edge": 3,
+								"breach": 1
+							}
+						},
+						{
+							"function": "set_custom_data",
+							"tag": "{item_functions:{dimensional_sword:1b}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

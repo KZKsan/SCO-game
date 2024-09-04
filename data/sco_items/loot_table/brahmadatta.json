@@ -1,97 +1,105 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "bow",
-          "functions": [
-            {
-              "function": "set_name",
-              "name": {
-                "text": "ブラフマダッタ",
-                "italic": false
-              }
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                "ダイヤモンドを散りばめた黄金の弓",
-                "使用時に目が眩んでしまうので注意",
-                "",
-                {
-                  "text": "手に持ったとき：",
-                  "color": "gray",
-                  "italic": false
-                },
-                [
-                  {
-                    "text": "+5% ",
-                    "color": "blue",
-                    "italic": false
-                  },
-                  {
-                    "translate": "attribute.name.generic.movement_speed",
-                    "color": "blue",
-                    "italic": false
-                  }
-                ],
-                [
-                  {
-                    "translate": "attribute.name.generic.armor",
-                    "color": "red",
-                    "italic": false
-                  },
-                  {
-                    "text": " -4",
-                    "color": "red",
-                    "italic": false
-                  }
-                ]
-              ],
-              "mode": "replace_all"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "id": "sco_items:brahmadatta",
-                  "amount": -4,
-                  "operation": "add_value",
-                  "slot": "hand"
-                },
-                {
-                  "attribute": "generic.movement_speed",
-                  "id": "sco_items:brahmadatta",
-                  "amount": 0.05,
-                  "operation": "add_multiplied_total",
-                  "slot": "hand"
-                }
-              ]
-            },
-            {
-              "function": "set_enchantments",
-              "enchantments": {
-                "flame": 1
-              }
-            },
-            {
-              "function": "toggle_tooltips",
-              "toggles": {
-                "attribute_modifiers": false
-              }
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "damage": 360
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "bow",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "itme.sco_items.brahmadatta",
+								"fallback": "ブラフマダッタ",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "item.sco_items.brahmadatta.description.0",
+									"fallback": "ダイヤモンドを散りばめた黄金の弓"
+								},
+								{
+									"translate": "item.sco_items.brahmadatta.description.1",
+									"fallback": "使用時に目が眩んでしまうので注意"
+								},
+								"",
+								{
+									"translate": "item.modifiers.hand",
+									"fallback": "手に持ったとき：",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									{
+										"text": "+5% ",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"translate": "attribute.name.generic.movement_speed",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "attribute.name.generic.armor",
+										"color": "red",
+										"italic": false
+									},
+									{
+										"text": " -4",
+										"color": "red",
+										"italic": false
+									}
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.armor",
+									"id": "sco_items:brahmadatta",
+									"amount": -4,
+									"operation": "add_value",
+									"slot": "hand"
+								},
+								{
+									"attribute": "generic.movement_speed",
+									"id": "sco_items:brahmadatta",
+									"amount": 0.05,
+									"operation": "add_multiplied_total",
+									"slot": "hand"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"flame": 1
+							}
+						},
+						{
+							"function": "toggle_tooltips",
+							"toggles": {
+								"attribute_modifiers": false
+							}
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"damage": 360
+							}
+						}
+					]
+				}
+			]
+		}
+	]
 }

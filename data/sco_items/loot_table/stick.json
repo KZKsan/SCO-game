@@ -10,14 +10,18 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "木の棍棒",
+                                "translate": "item.sco_items.stick",
+                                "fallback": "木の棍棒",
                                 "italic": false
                             }
                         },
                         {
                             "function": "set_lore",
                             "lore": [
-                                "無いよりは、なしよりのあり。"
+                                {
+                                    "translate": "item.sco_items.stick.description.0",
+                                    "fallback": "無いよりは、なしよりのあり。"
+                                }
                             ],
                             "mode": "replace_all"
                         },

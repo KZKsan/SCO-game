@@ -10,7 +10,7 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "毒の矢",
+                                "translate": "item.minecraft.tipped_arrow.effect.poison",
                                 "italic": false
                             }
                         },

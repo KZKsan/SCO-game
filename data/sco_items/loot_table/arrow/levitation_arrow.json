@@ -1,37 +1,37 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "tipped_arrow"
-        }
-      ],
-      "functions": [
-        {
-          "function": "set_components",
-          "components": {
-            "potion_contents": {
-              "custom_color": 16777215,
-              "custom_effects": [
-                {
-                  "id": "levitation",
-                  "amplifier": 20,
-                  "duration": 5
-                }
-              ]
-            }
-          }
-        },
-        {
-          "function": "set_name",
-          "name": {
-            "text": "浮遊の矢",
-            "italic": false
-          }
-        }
-      ]
-    }
-  ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "tipped_arrow"
+				}
+			],
+			"functions": [
+				{
+					"function": "set_components",
+					"components": {
+						"potion_contents": {
+							"custom_color": 16777215,
+							"custom_effects": [
+								{
+									"id": "levitation",
+									"amplifier": 20,
+									"duration": 5
+								}
+							]
+						}
+					}
+				},
+				{
+					"function": "set_name",
+					"name": {
+						"text": "浮遊の矢",
+						"italic": false
+					}
+				}
+			]
+		}
+	]
 }

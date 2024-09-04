@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "ステップブーツ",
+                                "translate": "item.sco_items.step_boots",
+                                "fallback": "ステップブーツ",
                                 "italic": false
                             }
                         },

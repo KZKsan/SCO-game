@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "暗闇の魔弾",
+                                "translate": "item.sco_items.magic_bullet_of_darkness",
+                                "fallback": "暗闇の魔弾",
                                 "italic": false
                             }
                         },
@@ -44,7 +45,7 @@
                                 "",
                                 [
                                     {
-                                        "translate": "sco_items.throwing_limit",
+                                        "translate": "item.modifiers.throwing_limit",
                                         "fallback": "投げ制限",
                                         "color": "red",
                                         "italic": false

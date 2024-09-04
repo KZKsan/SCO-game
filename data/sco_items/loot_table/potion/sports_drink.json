@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "スポーツドリンク",
+                                "translate": "item.sco_items.sports_drink",
+                                "fallback": "スポーツドリンク",
                                 "color": "white",
                                 "italic": false
                             }
@@ -18,7 +19,10 @@
                         {
                             "function": "set_lore",
                             "lore": [
-                                "ア〇エリアス！"
+                                {
+                                    "translate": "item.sco_items.sports_drink.description.0",
+                                    "fallback": "ア〇エリアス！"
+                                }
                             ],
                             "mode": "replace_all"
                         },

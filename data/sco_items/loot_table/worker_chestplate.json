@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "勤労の服",
+                                "translate": "item.sco_items.worker_chestplate",
+                                "fallback": "勤労の服",
                                 "color": "white",
                                 "italic": false
                             }

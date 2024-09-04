@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "ストーンソード",
+                                "translate": "item.sco_items.stone_sword",
+                                "fallback": "ストーンソード",
                                 "italic": false
                             }
                         }

@@ -1,59 +1,59 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "leather_chestplate",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "魔導ローブ",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.armor",
-                    "id": "sco_items:magic_robe",
-                    "amount": 8,
-                    "operation": "add_value",
-                    "slot": "chest"
-                  },
-                  {
-                    "attribute": "generic.movement_speed",
-                    "id": "sco_items:magic_robe",
-                    "amount": 0.15,
-                    "operation": "add_multiplied_total",
-                    "slot": "chest"
-                  }
-                ]
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "thorns": 5,
-                  "binding_curse": 1,
-                  "unbreaking": 10
-                }
-              },
-              {
-                "function": "set_components",
-                "components": {
-                  "dyed_color": {
-                    "rgb": 14474460,
-                    "show_in_tooltip": false
-                  }
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "leather_chestplate",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.magic_robe",
+								"fallback": "魔導ローブ",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.armor",
+									"id": "sco_items:magic_robe",
+									"amount": 8,
+									"operation": "add_value",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.movement_speed",
+									"id": "sco_items:magic_robe",
+									"amount": 0.15,
+									"operation": "add_multiplied_total",
+									"slot": "chest"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"thorns": 5,
+								"binding_curse": 1,
+								"unbreaking": 10
+							}
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"dyed_color": {
+									"rgb": 14474460,
+									"show_in_tooltip": false
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

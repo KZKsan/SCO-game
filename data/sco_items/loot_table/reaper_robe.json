@@ -1,98 +1,102 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "leather_chestplate",
-          "functions": [
-            {
-              "function": "set_name",
-              "name": {
-                "text": "リーパーローブ",
-                "italic": false
-              }
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                "死の淵へ誘うローブ",
-                "",
-                [
-                  {
-                    "translate": "effect.minecraft.resistance",
-                    "color": "#00CCAA",
-                    "italic": false
-                  },
-                  " A:2, D:1s"
-                ]
-              ],
-              "mode": "replace_all"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "id": "sco_items:reaper_robe",
-                  "amount": 10,
-                  "operation": "add_value",
-                  "slot": "chest"
-                },
-                {
-                  "attribute": "generic.armor_toughness",
-                  "id": "sco_items:reaper_robe",
-                  "amount": 20,
-                  "operation": "add_value",
-                  "slot": "chest"
-                },
-                {
-                  "attribute": "generic.max_health",
-                  "id": "sco_items:reaper_robe",
-                  "amount": -14,
-                  "operation": "add_value",
-                  "slot": "chest"
-                }
-              ]
-            },
-            {
-              "function": "set_enchantments",
-              "enchantments": {
-                "binding_curse": 1,
-                "feather_falling": 2,
-                "projectile_protection": 4,
-                "thorns": 4,
-                "unbreaking": 10
-              }
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "dyed_color": {
-                  "rgb": 1908001,
-                  "show_in_tooltip": false
-                }
-              }
-            },
-            {
-              "function": "set_custom_data",
-              "tag": {
-                "item_functions": {
-                  "passive_effects": [
-                    {
-                      "id": "resistance",
-                      "duration": 1,
-                      "amplifier": 2,
-                      "hide_particle": "false"
-                    }
-                  ]
-                }
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "leather_chestplate",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.reaper_robe",
+								"fallback": "リーパーローブ",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "item.sco_items.reaper_robe.description.0",
+									"fallback": "死の淵へ誘うローブ"
+								},
+								"",
+								[
+									{
+										"translate": "effect.minecraft.resistance",
+										"color": "#00CCAA",
+										"italic": false
+									},
+									" A:2, D:1s"
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.armor",
+									"id": "sco_items:reaper_robe",
+									"amount": 10,
+									"operation": "add_value",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.armor_toughness",
+									"id": "sco_items:reaper_robe",
+									"amount": 20,
+									"operation": "add_value",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.max_health",
+									"id": "sco_items:reaper_robe",
+									"amount": -14,
+									"operation": "add_value",
+									"slot": "chest"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"binding_curse": 1,
+								"feather_falling": 2,
+								"projectile_protection": 4,
+								"thorns": 4,
+								"unbreaking": 10
+							}
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"dyed_color": {
+									"rgb": 1908001,
+									"show_in_tooltip": false
+								}
+							}
+						},
+						{
+							"function": "set_custom_data",
+							"tag": {
+								"item_functions": {
+									"passive_effects": [
+										{
+											"id": "resistance",
+											"duration": 1,
+											"amplifier": 2,
+											"hide_particle": "false"
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
 }

@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "暗雲の矢",
+                                "translate": "item.sco_items.blindness_arrow",
+                                "fallback": "暗雲の矢",
                                 "italic": false
                             }
                         },

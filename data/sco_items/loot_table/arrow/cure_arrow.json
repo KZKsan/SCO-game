@@ -11,7 +11,8 @@
 							"function": "set_name",
 							"name": [
 								{
-									"text": "浄化の矢",
+									"translate": "item.sco_items.cure_arrow",
+									"fallback": "浄化の矢",
 									"color": "white",
 									"italic": false
 								}
@@ -21,11 +22,15 @@
 							"function": "set_lore",
 							"lore": [
 								{
-									"text": "浄化の力",
+									"translate": "enchantment.sco_items.cure_arrow",
+									"fallback": "浄化の力",
 									"color": "gray",
 									"italic": false
 								},
-								"対象のバフ・デバフをキュアする"
+								{
+									"translate": "item.sco_items.cure_arrow.description.0",
+									"fallback": "対象のバフ・デバフをキュアする"
+								}
 							],
 							"mode": "replace_all"
 						},
@@ -35,7 +40,7 @@
 								"potion_contents": {
 									"custom_color": 11393254
 								},
-								"hide_additional_tooltip" : {}
+								"hide_additional_tooltip": {}
 							}
 						},
 						{

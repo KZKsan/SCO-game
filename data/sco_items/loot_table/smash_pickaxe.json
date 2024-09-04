@@ -10,14 +10,18 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "スマッシュピッケル",
+                                "translate": "item.sco_items.smash_pickaxe",
+                                "fallback": "スマッシュピッケル",
                                 "italic": false
                             }
                         },
                         {
                             "function": "set_lore",
                             "lore": [
-                                "スマッシュ!"
+                                {
+                                    "translate": "item.sco_items.smash_pickaxe.description.0",
+                                    "fallback": "スマッシュ!"
+                                }
                             ],
                             "mode": "replace_all"
                         },

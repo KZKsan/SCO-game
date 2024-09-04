@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "光の魔弾",
+                                "translate": "item.sco_items.magic_bullet_of_light",
+                                "fallback": "光の魔弾",
                                 "italic": false
                             }
                         },

@@ -11,7 +11,8 @@
 							"function": "set_name",
 							"name": [
 								{
-									"text": "聖なる矢",
+									"translate": "item.sco_items.smite_arrow",
+									"fallback": "聖なる矢",
 									"color": "white",
 									"italic": false
 								}
@@ -20,7 +21,10 @@
 						{
 							"function": "set_lore",
 							"lore": [
-								"死した存在を抹消する矢"
+								{
+									"translate": "item.sco_items.smite_arrow.description.0",
+									"fallback": "死した存在を抹消する矢"
+								}
 							],
 							"mode": "replace_all"
 						},

@@ -12,7 +12,8 @@
                 {
                     "function": "set_name",
                     "name": {
-                        "text": "粉砕グローブ",
+						"translate": "item.sco_items.crush_grove",
+                        "fallback": "粉砕グローブ",
                         "italic": false
                     }
                 },
@@ -20,7 +21,8 @@
                     "function": "set_lore",
                     "lore": [
                         {
-                            "text": "狂暴なドラゴンをその手に!"
+							"translate": "item.sco_items.crush_grove.description.0",
+                            "fallback": "狂暴なドラゴンをその手に!"
                         }
                     ],
                     "mode": "replace_all"

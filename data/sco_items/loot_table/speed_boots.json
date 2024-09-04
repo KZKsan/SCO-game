@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "スピードブーツ",
+                                "translate": "item.sco_items.speed_boots",
+                                "fallback": "スピードブーツ",
                                 "italic": false
                             }
                         },

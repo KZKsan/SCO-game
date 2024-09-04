@@ -4,13 +4,13 @@
 
 __sco_items__
 
-> functions
+> function
 > :ここにアイテムのコマンドを作る
 
-> loot_tables
+> loot_table
 > :アイテム本体はここで作る
 
-> advancements
+> advancement
 > :複雑なトリガーとかに使う
 
 ***ショップを出すコマンド***
@@ -23,7 +23,7 @@ __sco_items__
 
 2.以下のコマンドを書く
 
-```mcfunction
+```mcfunction {"id":"01J6KA78SG4YEAQXJHRBVPQWGV"}
 ### 購入アイテム チェスト付きトロッコのcontainer.0に入れる GUI上は購入アイテムがそのままアイコンになる
 item replace entity @e[tag=set_trade_data,limit=1,distance=..2] container.0 with diamond_pickaxe 1
 item replace entity @e[tag=set_trade_data,limit=1,distance=..2] container.1 with iron_sword 1
@@ -56,11 +56,12 @@ function enderface:gui_layoutes/shop/set_trade_data/wirite_data/sell
 data modify storage enderface:shop sell_count set value {click:1,sneak:1}
 function enderface:gui_layoutes/shop/set_trade_data/wirite_data/sell_count
 data modify storage enderface:shop trade_data append from storage enderface:shop _
+
 ```
 
 3.取引多重化
 
-```mcfunction
+```mcfunction {"id":"01J6KA78SG4YEAQXJHRC8PDD63"}
 item replace entity @e[tag=set_trade_data,limit=1,distance=..2] container.0 with diamond_pickaxe 1
 function enderface:gui_layoutes/shop/set_trade_data/wirite_data/icon/preview
 function enderface:gui_layoutes/shop/set_trade_data/wirite_data/sell
@@ -79,13 +80,8 @@ data modify storage enderface:shop sell_count set value {click:1,sneak:1}
 function enderface:gui_layoutes/shop/set_trade_data/wirite_data/sell_count
 #↑ここまで追加取引
 data modify storage enderface:shop trade_data append from storage enderface:shop _
+
 ```
-
-
-
-
-
-
 
 カテゴリを追加する場合
 
@@ -93,7 +89,7 @@ data modify storage enderface:shop trade_data append from storage enderface:shop
 
 2.以下のコマンドを書く
 
-```mcfunction
+```mcfunction {"id":"01J6KA78SG4YEAQXJHRG3F6M74"}
 #>enderface:gui_layoutes/shop/set_trade_data/category/<カテゴリ名(このfunctionの名前)>
 #@within tag/function enderface:set_trade_data
 function enderface:gui_layoutes/shop/set_trade_data/reset_data
@@ -104,13 +100,14 @@ function enderface:gui_layoutes/shop/set_trade_data/reset_data
 ## 取引内容を保存
 data modify storage enderface:shop <カテゴリ名> set from enderface:shop trade_data
 
+
 ```
 
 3.作ったカテゴリ設定用functionのパスをdata\enderface\tags\functions\set_trade_data.jsonに追加する
 
 4.data\enderface\functions\gui_layoutes\shop\<カテゴリ名>.mcfunctionを作成し、以下のコマンドを書く
 
-```mcfunction
+```mcfunction {"id":"01J6KA78SG4YEAQXJHRGAZVQYK"}
 #>enderface:gui_layoutes/shop/<カテゴリ名>
 #@within enderface:gui_layoutes/load
 
@@ -118,11 +115,12 @@ data modify storage enderface:shop _ set from storage enderface:shop <カテゴ�
 
 function enderface:gui_layoutes/shop/generic
 
+
 ```
 
 5.data\enderface\functions\gui_layoutes\load.mcfunctionに以下のコマンドを書く
 
-```mcfunction
+```mcfunction {"id":"01J6KA78SG4YEAQXJHRJMH10B2"}
 #>enderface:gui_layoutes/load
 #@within enderface:**
 
@@ -134,11 +132,12 @@ execute if data storage enderface:data {gui_name:"shop/<カテゴリ名>"} run f
 ##ここより下の文はいじらない
 function enderface:gui_data/copy
 
+
 ```
 
 6.data\enderface\functions\gui_layoutes\shop\0.mcfunctionに以下のコマンドを書く
 
-```mcfunction
+```mcfunction {"id":"01J6KA78SG4YEAQXJHRNJMA60G"}
 #>enderface:gui_layoutes/shop/0
 #@within enderface:gui_layoutes/load
 
@@ -154,6 +153,18 @@ function marker_storage/get
 data remove entity @e[predicate=marker_stor.age,limit=1] data.preview_trade
 data modify entity @e[predicate=marker_storage,limit=1] data.page set value 0
 
+
 ```
 
 7.データパックを再読み込みする
+
+> 翻訳キー
+> :アイテム名および説明文をリソースパックにより翻訳できるように定義
+
+・アイテム名：
+`item.sco_items.(name)`
+
+・説明文：
+`item.sco_items.(name).description.(number)`
+
+・手に持ったとき：`item.modifiers.hand`

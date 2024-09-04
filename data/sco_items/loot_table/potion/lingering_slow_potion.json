@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "残留スローポーション",
+                                "translate": "item.sco_items.lingering_slow_potion",
+                                "fallback": "残留スローポーション",
                                 "color": "white",
                                 "italic": false
                             }

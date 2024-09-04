@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "バリアポーション",
+                                "translate": "item.sco_items.barrier_potion",
+                                "fallback": "バリアポーション",
                                 "italic": false
                             }
                         },

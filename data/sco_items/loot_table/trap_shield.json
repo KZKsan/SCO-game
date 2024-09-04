@@ -25,7 +25,8 @@
                                 },
                                 "",
                                 {
-                                    "text": "攻撃を防いだとき:",
+                                    "translate": "item.modifiers.damage_blocked",
+                                    "fallback": "攻撃を防いだとき:",
                                     "color": "gray",
                                     "italic": false
                                 },

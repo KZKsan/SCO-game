@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "空間の魔導書",
+                                "translate": "item.sco_items.magic_book_of_range",
+                                "fallback": "空間の魔導書",
                                 "italic": false
                             }
                         },
@@ -18,7 +19,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "詠唱すると攻撃距離が広がるが攻撃力が下がる"
+                                    "translate": "item.sco_items.magic_book_of_range.description.0",
+                                    "fallback": "詠唱すると攻撃距離が広がるが攻撃力が下がる"
                                 }
                             ],
                             "mode": "replace_all"

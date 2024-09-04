@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "投げナイフ",
+                                "translate": "item.sco_items.throwing_knife",
+                                "fallback": "投げナイフ",
                                 "italic": false
                             }
                         },

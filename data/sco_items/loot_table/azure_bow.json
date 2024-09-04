@@ -1,55 +1,58 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "bow",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "蒼穹の弓",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_lore",
-                "lore": [
-                  "伝説の弓兵が使っていたとされる弓"
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.attack_damage",
-                    "id": "sco_items:azure_bow",
-                    "amount": -0.5,
-                    "operation": "add_value",
-                    "slot": "offhand"
-                  },
-                  {
-                    "attribute": "generic.movement_speed",
-                    "id": "sco_items:azure_bow",
-                    "amount": 0.2,
-                    "operation": "add_multiplied_total",
-                    "slot": "offhand"
-                  }
-                ]
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "punch": 1
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "bow",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.azure_bow",
+								"fallback": "蒼穹の弓",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "item.sco_items.azure_bow.description.0",
+									"fallback": "伝説の弓兵が使っていたとされる弓"
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.attack_damage",
+									"id": "sco_items:azure_bow",
+									"amount": -0.5,
+									"operation": "add_value",
+									"slot": "offhand"
+								},
+								{
+									"attribute": "generic.movement_speed",
+									"id": "sco_items:azure_bow",
+									"amount": 0.2,
+									"operation": "add_multiplied_total",
+									"slot": "offhand"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"punch": 1
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

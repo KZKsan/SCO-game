@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "残留スピードポーション",
+                                "translate": "item.sco_items.lingering_speed_potion",
+                                "fallback": "残留スピードポーション",
                                 "color": "white",
                                 "italic": false
                             }

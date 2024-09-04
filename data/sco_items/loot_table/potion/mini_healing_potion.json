@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "ミニヒールポーション",
+                                "translate": "item.sco_items.mini_healing_potion",
+                                "fallback": "ミニヒールポーション",
                                 "italic": false,
                                 "color": "white"
                             }
@@ -18,7 +19,10 @@
                         {
                             "function": "set_lore",
                             "lore": [
-                                "高速でHPを2回復する"
+                                {
+                                    "translate": "item.sco_items.mini_healing_potion.description.0",
+                                    "fallback": "高速でHPを2回復する"
+                                }
                             ],
                             "mode": "replace_all"
                         },

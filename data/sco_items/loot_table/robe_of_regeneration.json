@@ -1,89 +1,92 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "leather_chestplate",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "再生のローブ",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_lore",
-                "lore": [
-                  "着ると治癒力が上がる魔法のローブ",
-                  "",
-                  [
-                    {
-                      "translate": "effect.minecraft.regeneration",
-                      "color": "#00CCAA",
-                      "italic": false
-                    },
-                    " A:1, D:3s"
-                  ]
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.armor",
-                    "id": "sco_items:robe_of_regeneration",
-                    "amount": 5,
-                    "operation": "add_value",
-                    "slot": "chest"
-                  },
-                  {
-                    "attribute": "generic.attack_damage",
-                    "id": "sco_items:robe_of_regeneration",
-                    "amount": -1,
-                    "operation": "add_value",
-                    "slot": "chest"
-                  },
-                  {
-                    "attribute": "generic.max_health",
-                    "id": "sco_items:robe_of_regeneration",
-                    "amount": -4,
-                    "operation": "add_value",
-                    "slot": "chest"
-                  }
-                ]
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "binding_curse": 1,
-                  "blast_protection": 1,
-                  "fire_protection": 1,
-                  "projectile_protection": 1,
-                  "sco_items:magic_protection": 8,
-                  "unbreaking": 10
-                }
-              },
-              {
-                "function": "set_components",
-                "components": {
-                  "dyed_color": {
-                    "rgb": 15086200,
-                    "show_in_tooltip": false
-                  }
-                }
-              },
-              {
-                "function": "set_custom_data",
-                "tag": "{item_functions:{passive_effects:[{id:\"regeneration\",duration:3,amplifier:1,hide_particle:\"false\",pass_effect:1b}]}}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "leather_chestplate",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.robe_of_regeneration",
+								"fallback": "再生のローブ",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "item.sco_items.robe_of_regeneration.description.0",
+									"fallback": "着ると治癒力が上がる魔法のローブ"
+								},
+								"",
+								[
+									{
+										"translate": "effect.minecraft.regeneration",
+										"color": "#00CCAA",
+										"italic": false
+									},
+									" A:1, D:3s"
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.armor",
+									"id": "sco_items:robe_of_regeneration",
+									"amount": 5,
+									"operation": "add_value",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.attack_damage",
+									"id": "sco_items:robe_of_regeneration",
+									"amount": -1,
+									"operation": "add_value",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.max_health",
+									"id": "sco_items:robe_of_regeneration",
+									"amount": -4,
+									"operation": "add_value",
+									"slot": "chest"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"binding_curse": 1,
+								"blast_protection": 1,
+								"fire_protection": 1,
+								"projectile_protection": 1,
+								"sco_items:magic_protection": 8,
+								"unbreaking": 10
+							}
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"dyed_color": {
+									"rgb": 15086200,
+									"show_in_tooltip": false
+								}
+							}
+						},
+						{
+							"function": "set_custom_data",
+							"tag": "{item_functions:{passive_effects:[{id:\"regeneration\",duration:3,amplifier:1,hide_particle:\"false\",pass_effect:1b}]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

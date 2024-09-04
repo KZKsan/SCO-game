@@ -10,7 +10,8 @@
             {
               "function": "set_name",
               "name": {
-                "text": "黒霊騎士の鎧",
+				"translate": "itme.sco_items.black_spirit_knight_armor",
+                "fallback": "黒霊騎士の鎧",
                 "color": "dark_purple",
                 "italic": false
               }
@@ -18,7 +19,8 @@
             {
               "function": "set_lore",
               "lore": [
-                "何か不気味な雰囲気をまとう鎧"
+                {	"translate": "itme.sco_items.black_spirit_knight_armor.description.0",
+					"fallback":"何か不気味な雰囲気をまとう鎧"}
               ],
               "mode": "replace_all"
             },

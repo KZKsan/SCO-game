@@ -1,77 +1,80 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "leather_chestplate",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "韋駄天の鎧",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_lore",
-                "lore": [
-                  "伝説の軽歩兵が使っていたとされる鎧",
-                  "",
-                  [
-                    {
-                      "translate": "effect.minecraft.jump_boost",
-                      "color": "#00CCAA",
-                      "italic": false
-                    },
-                    " A:0, D:2s"
-                  ]
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.armor",
-                    "id": "sco_items:idaten_armor",
-                    "amount": 6,
-                    "operation": "add_value",
-                    "slot": "chest"
-                  },
-                  {
-                    "attribute": "generic.movement_speed",
-                    "id": "sco_items:idaten_armor",
-                    "amount": 0.1,
-                    "operation": "add_multiplied_total",
-                    "slot": "chest"
-                  }
-                ]
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "unbreaking": 10
-                }
-              },
-              {
-                "function": "set_custom_data",
-                "tag": "{item_functions:{passive_effects:[{id:\"jump_boost\",duration:2,amplifier:0,hide_particle:\"false\"}]}}"
-              },
-              {
-                "function": "set_components",
-                "components": {
-                  "dyed_color": {
-                    "rgb": 6599860,
-                    "show_in_tooltip": false
-                  }
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "leather_chestplate",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.idaten_armor",
+								"fallback": "韋駄天の鎧",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "item.sco_items.idaten_armor.description.0",
+									"fallback": "伝説の軽歩兵が使っていたとされる鎧"
+								},
+								"",
+								[
+									{
+										"translate": "effect.minecraft.jump_boost",
+										"color": "#00CCAA",
+										"italic": false
+									},
+									" A:0, D:2s"
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.armor",
+									"id": "sco_items:idaten_armor",
+									"amount": 6,
+									"operation": "add_value",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.movement_speed",
+									"id": "sco_items:idaten_armor",
+									"amount": 0.1,
+									"operation": "add_multiplied_total",
+									"slot": "chest"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"unbreaking": 10
+							}
+						},
+						{
+							"function": "set_custom_data",
+							"tag": "{item_functions:{passive_effects:[{id:\"jump_boost\",duration:2,amplifier:0,hide_particle:\"false\"}]}}"
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"dyed_color": {
+									"rgb": 6599860,
+									"show_in_tooltip": false
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

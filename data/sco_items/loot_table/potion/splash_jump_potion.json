@@ -10,7 +10,7 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "跳躍のスプラッシュポーション",
+                                "translate": "item.minecraft.splash_potion.effect.leaping",
                                 "color": "white",
                                 "italic": false
                             }

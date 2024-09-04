@@ -10,14 +10,18 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "トリシューラ",
+                                "translate": "item.sco_items.trishula",
+                                "fallback": "トリシューラ",
                                 "italic": false
                             }
                         },
                         {
                             "function": "set_lore",
                             "lore": [
-                                "呪いのおまけつき",
+                                {
+                                    "translate": "item.sco_items.trishula.description.0",
+                                    "fallback": "呪いのおまけつき"
+                                },
                                 "",
                                 [
                                     {

@@ -1,57 +1,57 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "leather_boots",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "ファイヤブーツ",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.armor",
-                    "id": "sco_items:fire_boots",
-                    "amount": 1.5,
-                    "operation": "add_value",
-                    "slot": "feet"
-                  }
-                ]
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "unbreaking": 10,
-                  "fire_protection": 4
-                }
-              },
-              {
-                "function": "toggle_tooltips",
-                "toggles": {
-                  "dyed_color": false
-                }
-              },
-              {
-                "function": "set_components",
-                "components": {
-                  "dyed_color": {
-                    "rgb": 16751107,
-                    "show_in_tooltip": false
-                  }
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "leather_boots",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.fire_boots",
+								"fallback": "ファイヤブーツ",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.armor",
+									"id": "sco_items:fire_boots",
+									"amount": 1.5,
+									"operation": "add_value",
+									"slot": "feet"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"unbreaking": 10,
+								"fire_protection": 4
+							}
+						},
+						{
+							"function": "toggle_tooltips",
+							"toggles": {
+								"dyed_color": false
+							}
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"dyed_color": {
+									"rgb": 16751107,
+									"show_in_tooltip": false
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

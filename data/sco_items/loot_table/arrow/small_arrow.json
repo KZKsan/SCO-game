@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "小さな矢",
+                                "translate": "item.sco_items.small_arrow",
+                                "fallback": "小さな矢",
                                 "italic": false
                             }
                         },
@@ -18,7 +19,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "威力は控えめだが、遠くにまで飛ばせる。"
+                                    "translate": "item.sco_items.small_arrow.description.0",
+                                    "fallback": "威力は控えめだが、遠くにまで飛ばせる。"
                                 }
                             ],
                             "mode": "replace_all"

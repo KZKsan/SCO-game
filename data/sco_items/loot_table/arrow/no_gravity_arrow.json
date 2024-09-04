@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "無重力の矢",
+                                "translate": "item.sco_items.no_gravity_arrow",
+                                "fallback": "無重力の矢",
                                 "italic": false
                             }
                         },

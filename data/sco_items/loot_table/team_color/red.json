@@ -11,19 +11,18 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "text": "あなたは",
+                                    "translate": "item.sco_items.team_color",
+                                    "fallback": "あなたは%sチームです。",
                                     "italic": false,
-                                    "color": "white"
-                                },
-                                {
-                                    "text": "赤red",
-                                    "italic": false,
-                                    "color": "red"
-                                },
-                                {
-                                    "text": "チームです。",
-                                    "italic": false,
-                                    "color": "white"
+                                    "color": "white",
+                                    "with": [
+                                        {
+                                            "translate": "team.sco.red",
+                                            "fallback": "赤red",
+                                            "italic": false,
+                                            "color": "red"
+                                        }
+                                    ]
                                 }
                             ]
                         },

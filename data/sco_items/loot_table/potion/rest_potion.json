@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "休息のポーション",
+                                "translate": "item.sco_items.rest_potion",
+                                "fallback": "休息のポーション",
                                 "color": "white",
                                 "italic": false
                             }

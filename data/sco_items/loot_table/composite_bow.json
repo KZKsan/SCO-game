@@ -1,112 +1,119 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "bow",
-            "functions": [
-              {
-                "function": "set_name",
-                "name": {
-                  "text": "コンポジットボウ",
-                  "color": "green",
-                  "italic": false
-                }
-              },
-              {
-                "function": "set_lore",
-                "lore": [
-                  "非常に重い高火力の弓",
-                  "構えている間は無防備になる",
-                  "",
-                  {
-                    "text": "手に持ったとき：",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  [
-                    {
-                      "translate": "attribute.name.generic.knockback_resistance",
-                      "color": "blue",
-                      "italic": false
-                    },
-                    {
-                      "text": " +6",
-                      "color": "blue",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "translate": "attribute.name.generic.armor",
-                      "color": "red",
-                      "italic": false
-                    },
-                    {
-                      "text": " -6",
-                      "color": "red",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": "-90% ",
-                      "color": "red",
-                      "italic": false
-                    },
-                    {
-                      "translate": "attribute.name.generic.movement_speed",
-                      "color": "red",
-                      "italic": false
-                    }
-                  ]
-                ],
-                "mode": "replace_all"
-              },
-              {
-                "function": "set_attributes",
-                "modifiers": [
-                  {
-                    "attribute": "generic.armor",
-                    "id": "sco_items:composite_bow",
-                    "amount": -6,
-                    "operation": "add_value",
-                    "slot": "hand"
-                  },
-                  {
-                    "attribute": "generic.knockback_resistance",
-                    "id": "sco_items:composite_bow",
-                    "amount": 0.6,
-                    "operation": "add_value",
-                    "slot": "hand"
-                  },
-                  {
-                    "attribute": "generic.movement_speed",
-                    "id": "sco_items:composite_bow",
-                    "amount": -0.9,
-                    "operation": "add_multiplied_total",
-                    "slot": "hand"
-                  }
-                ]
-              },
-              {
-                "function": "set_enchantments",
-                "enchantments": {
-                  "power": 1
-                }
-              },
-              {
-                "function": "toggle_tooltips",
-                "toggles": {
-                  "attribute_modifiers": false
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "bow",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "item.sco_items.composite_bow",
+								"fallback": "コンポジットボウ",
+								"color": "green",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "item.sco_items.composite_bow.description.0",
+									"fallback": "非常に重い高火力の弓"
+								},
+								{
+									"translate": "item.sco_items.composite_bow.description.1",
+									"fallback": "構えている間は無防備になる"
+								},
+								"",
+								{
+									"translate": "item.modifiers.hand",
+									"fallback": "手に持ったとき：",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									{
+										"translate": "attribute.name.generic.knockback_resistance",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"text": " +6",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "attribute.name.generic.armor",
+										"color": "red",
+										"italic": false
+									},
+									{
+										"text": " -6",
+										"color": "red",
+										"italic": false
+									}
+								],
+								[
+									{
+										"text": "-90% ",
+										"color": "red",
+										"italic": false
+									},
+									{
+										"translate": "attribute.name.generic.movement_speed",
+										"color": "red",
+										"italic": false
+									}
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.armor",
+									"id": "sco_items:composite_bow",
+									"amount": -6,
+									"operation": "add_value",
+									"slot": "hand"
+								},
+								{
+									"attribute": "generic.knockback_resistance",
+									"id": "sco_items:composite_bow",
+									"amount": 0.6,
+									"operation": "add_value",
+									"slot": "hand"
+								},
+								{
+									"attribute": "generic.movement_speed",
+									"id": "sco_items:composite_bow",
+									"amount": -0.9,
+									"operation": "add_multiplied_total",
+									"slot": "hand"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"power": 1
+							}
+						},
+						{
+							"function": "toggle_tooltips",
+							"toggles": {
+								"attribute_modifiers": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

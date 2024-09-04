@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "連弩",
+                                "translate": "item.sco_items.multishot_crossbow",
+                                "fallback": "連弩",
                                 "italic": false
                             }
                         },

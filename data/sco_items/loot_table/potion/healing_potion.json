@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "ヒールポーション",
+                                "translate": "item.sco_items.healing_potion",
+                                "fallback": "ヒールポーション",
                                 "italic": false
                             }
                         },

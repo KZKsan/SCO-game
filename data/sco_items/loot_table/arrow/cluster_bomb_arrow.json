@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "クラスターボムの矢",
+                                "translate": "item.sco_items.cluster_bomb_arrow",
+                                "fallback": "クラスターボムの矢",
                                 "italic": false
                             }
                         },

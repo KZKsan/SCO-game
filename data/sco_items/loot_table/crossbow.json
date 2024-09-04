@@ -10,7 +10,7 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "クロスボウ",
+                  "translate": "item.minecraft.crossbow",
                   "color": "white",
                   "italic": false
                 }

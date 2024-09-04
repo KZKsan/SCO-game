@@ -10,7 +10,7 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "translate": "item.sco_itmes.alchemy_robe",
+                                "translate": "item.sco_items.alchemy_robe",
                                 "fallback": "錬金ローブ",
                                 "italic": false
                             }
@@ -19,11 +19,11 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "translate": "item.sco_itmes.alchemy_robe.description.0",
+                                    "translate": "item.sco_items.alchemy_robe.description.0",
                                     "fallback": "錬金術師による、特別なローブ。"
                                 },
                                 {
-                                    "translate": "item.sco_itmes.alchemy_robe.description.1",
+                                    "translate": "item.sco_items.alchemy_robe.description.1",
                                     "fallback": "複数のポーションを投げられる。"
                                 },
                                 "",

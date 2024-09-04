@@ -10,7 +10,8 @@
                         {
                             "function": "set_name",
                             "name": {
-                                "text": "狂化のポーション",
+                                "translate": "item.sco_items.madness_potion",
+                                "fallback": "狂化のポーション",
                                 "italic": false
                             }
                         },
