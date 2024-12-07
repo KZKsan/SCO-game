@@ -29,35 +29,35 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.movement_speed",
+									"attribute": "movement_speed",
 									"id": "sco_items:magic_book_of_flame",
 									"amount": -0.2,
 									"operation": "add_multiplied_total",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.armor",
+									"attribute": "armor",
 									"id": "sco_items:magic_book_of_flame",
 									"amount": -8,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.armor_toughness",
+									"attribute": "armor_toughness",
 									"id": "sco_items:magic_book_of_flame",
 									"amount": -2,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.attack_speed",
+									"attribute": "attack_speed",
 									"id": "sco_items:magic_book_of_flame",
 									"amount": -0.8,
 									"operation": "add_multiplied_total",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "player.entity_interaction_range",
+									"attribute": "entity_interaction_range",
 									"id": "sco_items:magic_book_of_flame",
 									"amount": 1,
 									"operation": "add_value",

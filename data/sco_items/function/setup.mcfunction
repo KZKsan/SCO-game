@@ -15,6 +15,8 @@ scoreboard objectives add cure_arrow dummy
 scoreboard objectives add corpse_daemon.cooldown dummy
 scoreboard objectives add wind_mace.cooldown dummy
 scoreboard objectives add sco_items.configs dummy
+scoreboard objectives add trishula.used dummy
+scoreboard objectives add trishula.used_time dummy
 
 #>
 #@internal

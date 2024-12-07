@@ -29,49 +29,49 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.armor",
+									"attribute": "armor",
 									"id": "sco_items:gargoyle_plate",
 									"amount": 9,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "generic.armor_toughness",
+									"attribute": "armor_toughness",
 									"id": "sco_items:gargoyle_plate",
 									"amount": 4,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "generic.knockback_resistance",
+									"attribute": "knockback_resistance",
 									"id": "sco_items:gargoyle_plate",
 									"amount": 0.7,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"id": "sco_items:gargoyle_plate",
 									"amount": -0.35,
 									"operation": "add_multiplied_total",
 									"slot": "chest"
 								},
 								{
-									"attribute": "generic.attack_speed",
+									"attribute": "attack_speed",
 									"id": "sco_items:gargoyle_plate",
 									"amount": -0.2,
 									"operation": "add_multiplied_total",
 									"slot": "chest"
 								},
 								{
-									"attribute": "generic.movement_speed",
+									"attribute": "movement_speed",
 									"id": "sco_items:gargoyle_plate",
 									"amount": -0.4,
 									"operation": "add_multiplied_total",
 									"slot": "chest"
 								},
 								{
-									"attribute": "generic.max_health",
+									"attribute": "max_health",
 									"id": "sco_items:gargoyle_plate",
 									"amount": 20,
 									"operation": "add_value",

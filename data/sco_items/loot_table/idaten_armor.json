@@ -38,14 +38,14 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.armor",
+									"attribute": "armor",
 									"id": "sco_items:idaten_armor",
 									"amount": 6,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "generic.movement_speed",
+									"attribute": "movement_speed",
 									"id": "sco_items:idaten_armor",
 									"amount": 0.1,
 									"operation": "add_multiplied_total",

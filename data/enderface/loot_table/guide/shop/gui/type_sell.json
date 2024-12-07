@@ -1,0 +1,62 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "emerald",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "sco.guide.shop.gui.type_sell",
+                                "fallback": ">売却",
+                                "italic": false,
+                                "color": "#00DD00"
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "sco.guide.shop.gui.type_sell.description.0",
+                                    "fallback": "[%s]でアイテムの売却GUIを開く",
+                                    "with": [
+                                        {
+                                            "keybind": "key.attack",
+                                            "color": "white"
+                                        }
+                                    ],
+                                    "italic": false,
+                                    "color": "#ffffff"
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": {
+                                "enderface_item": true,
+                                "click_events": {
+                                    "click_sounds": [
+                                        {
+                                            "sound": "ui.button.click"
+                                        }
+                                    ],
+                                    "change_gui": "join_the_game/guide/shop/gui/type_sell"
+                                }
+                            }
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "attribute_modifiers": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

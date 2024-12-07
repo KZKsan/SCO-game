@@ -58,7 +58,7 @@
 										"italic": false
 									},
 									{
-										"translate": "attribute.name.generic.movement_speed",
+										"translate": "attribute.name.movement_speed",
 										"color": "red",
 										"italic": false
 									}
@@ -70,14 +70,14 @@
 										"italic": false
 									},
 									{
-										"translate": "attribute.name.generic.attack_speed",
+										"translate": "attribute.name.attack_speed",
 										"color": "red",
 										"italic": false
 									}
 								],
 								[
 									{
-										"translate": "attribute.name.generic.attack_damage",
+										"translate": "attribute.name.attack_damage",
 										"color": "blue",
 										"italic": false
 									},
@@ -89,7 +89,7 @@
 								],
 								[
 									{
-										"translate": "attribute.name.generic.armor_toughness",
+										"translate": "attribute.name.armor_toughness",
 										"color": "red",
 										"italic": false
 									},
@@ -101,7 +101,7 @@
 								],
 								[
 									{
-										"translate": "attribute.name.generic.armor",
+										"translate": "attribute.name.armor",
 										"color": "red",
 										"italic": false
 									},
@@ -118,35 +118,35 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.movement_speed",
+									"attribute": "movement_speed",
 									"id": "sco_items:lightning_hammer",
 									"amount": -0.4,
 									"operation": "add_multiplied_total",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.attack_speed",
+									"attribute": "attack_speed",
 									"id": "sco_items:lightning_hammer",
 									"amount": -0.7,
 									"operation": "add_multiplied_total",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.armor",
+									"attribute": "armor",
 									"id": "sco_items:lightning_hammer",
 									"amount": -6,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"id": "sco_items:lightning_hammer",
 									"amount": 7,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.armor_toughness",
+									"attribute": "armor_toughness",
 									"id": "sco_items:lightning_hammer",
 									"amount": -2,
 									"operation": "add_value",

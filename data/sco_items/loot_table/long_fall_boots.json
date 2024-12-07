@@ -19,7 +19,7 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.safe_fall_distance",
+									"attribute": "safe_fall_distance",
 									"id": "sco_items:long_fall_boots",
 									"amount": 1024,
 									"operation": "add_value",

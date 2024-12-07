@@ -1,0 +1,14 @@
+#>enderface:gui_layoutes/guide_book/shop/gui/kit_memory/slot_3
+#@within enderface:gui_layoutes/guide_book/shop/gui/kit_memory
+item modify entity @s enderchest.2 enderface:selected
+function enderface:gui_layoutes/guide_book/shop/gui/kit_memory/save
+
+item replace entity @s enderchest.18 with glow_item_frame[item_name='{"text": ">ロード","italic": false,"color": "green"}',lore=['{"translate": "sco.guide.shop.gui.kit_memory.load_icon.descripsion.0","fallback": "[%s]でKitをロード","with": [{"keybind": "key.attack"}],"color": "white","italic": false}'],custom_data={enderface_item:1b}]
+item replace entity @s enderchest.8 with lava_bucket[item_name='{"text": ">削除","italic": false,"color": "dark_red"}',lore=['{"translate": "sco.guide.shop.gui.kit_memory.delete_icon.descripsion.0","fallback": "[%s]でKitを消去","with": [{"keybind": "key.attack"}],"color": "white","italic": false}'],custom_data={enderface_item:1b}]
+
+item replace entity @s enderchest.9 with diamond_chestplate[item_name='{"text": ">Kitプレビュー","italic": false,"color": "white"}',lore=['{"translate": "sco.guide.shop.gui.kit_memory.preview_icon.descripsion.0","fallback": "保存したKitのホットバー部分が確認できる","color": "white","italic": false}'],custom_data={enderface_item:1b},attribute_modifiers={show_in_tooltip:false,modifiers:[]}]
+item replace entity @s enderchest.10 with shield[item_name='{"text": ">Kitプレビュー","italic": false,"color": "white"}',lore=['{"translate": "sco.guide.shop.gui.kit_memory.preview_icon.descripsion.0","fallback": "保存したKitのホットバー部分が確認できる","color": "white","italic": false}'],custom_data={enderface_item:1b}]
+item replace entity @s enderchest.12 with packed_ice[item_name='{"text": ">Kitプレビュー","italic": false,"color": "white"}',lore=['{"translate": "sco.guide.shop.gui.kit_memory.preview_icon.descripsion.0","fallback": "保存したKitのホットバー部分が確認できる","color": "white","italic": false}'],custom_data={enderface_item:1b}] 20
+item replace entity @s enderchest.13 with packed_ice[item_name='{"text": ">Kitプレビュー","italic": false,"color": "white"}',lore=['{"translate": "sco.guide.shop.gui.kit_memory.preview_icon.descripsion.0","fallback": "保存したKitのホットバー部分が確認できる","color": "white","italic": false}'],custom_data={enderface_item:1b}] 20
+item replace entity @s enderchest.14 with packed_ice[item_name='{"text": ">Kitプレビュー","italic": false,"color": "white"}',lore=['{"translate": "sco.guide.shop.gui.kit_memory.preview_icon.descripsion.0","fallback": "保存したKitのホットバー部分が確認できる","color": "white","italic": false}'],custom_data={enderface_item:1b}] 20
+item replace entity @s enderchest.17 with gold_block[item_name='{"text": ">Kitプレビュー","italic": false,"color": "white"}',lore=['{"translate": "sco.guide.shop.gui.kit_memory.preview_icon.descripsion.0","fallback": "保存したKitのホットバー部分が確認できる","color": "white","italic": false}'],custom_data={enderface_item:1b}]

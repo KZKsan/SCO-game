@@ -23,16 +23,48 @@
                                     "fallback": "呪いのおまけつき"
                                 },
                                 "",
+                                {
+                                    "translate": "item.modifiers.using",
+                                    "fallback": "使用したとき:",
+                                    "color": "gray",
+                                    "italic": false
+                                },
                                 [
                                     {
                                         "translate": "effect.minecraft.poison",
                                         "color": "#00CCAA",
                                         "italic": false
                                     },
-                                    " A:0, D:2s"
+                                    " A:0, D:3s"
                                 ]
                             ],
                             "mode": "replace_all"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "attack_damage",
+                                    "amount": 9,
+                                    "id": "sco_items:trishula",
+                                    "slot": "mainhand",
+                                    "operation": "add_value"
+                                },
+                                {
+                                    "attribute": "attack_speed",
+                                    "amount": -2.9,
+                                    "id": "sco_items:trishula",
+                                    "slot": "mainhand",
+                                    "operation": "add_value"
+                                },
+                                {
+                                    "attribute": "armor",
+                                    "amount": -4,
+                                    "id": "sco_items:trishula",
+                                    "slot": "hand",
+                                    "operation": "add_value"
+                                }
+                            ]
                         },
                         {
                             "function": "set_enchantments",
@@ -42,12 +74,19 @@
                         },
                         {
                             "function": "set_custom_data",
-                            "tag": "{item_functions:{trishula:1b}}"
+                            "tag": {
+                                "item_functions": {
+                                    "trishula": true
+                                }
+                            }
                         },
                         {
                             "function": "set_components",
                             "components": {
-                                "hide_additional_tooltip": {}
+                                "hide_additional_tooltip": {},
+                                "use_cooldown": {
+                                    "seconds": 3.5
+                                }
                             }
                         }
                     ]

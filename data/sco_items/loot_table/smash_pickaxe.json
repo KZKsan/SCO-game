@@ -29,7 +29,7 @@
                             "function": "set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "generic.attack_damage",
+                                    "attribute": "attack_damage",
                                     "id": "sco_items:smash_pickaxe",
                                     "amount": -0.79,
                                     "operation": "add_multiplied_total",

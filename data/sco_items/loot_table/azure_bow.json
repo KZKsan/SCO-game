@@ -29,14 +29,14 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"id": "sco_items:azure_bow",
 									"amount": -0.5,
 									"operation": "add_value",
 									"slot": "offhand"
 								},
 								{
-									"attribute": "generic.movement_speed",
+									"attribute": "movement_speed",
 									"id": "sco_items:azure_bow",
 									"amount": 0.2,
 									"operation": "add_multiplied_total",

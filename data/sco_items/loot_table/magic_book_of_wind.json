@@ -29,35 +29,35 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.movement_speed",
+									"attribute": "movement_speed",
 									"id": "sco_items:magic_book_of_wind",
 									"amount": 0.5,
 									"operation": "add_multiplied_base",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.armor",
+									"attribute": "armor",
 									"id": "sco_items:magic_book_of_wind",
 									"amount": 3,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.armor_toughness",
+									"attribute": "armor_toughness",
 									"id": "sco_items:magic_book_of_wind",
 									"amount": 2,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.knockback_resistance",
+									"attribute": "knockback_resistance",
 									"id": "sco_items:magic_book_of_wind",
 									"amount": 0.5,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.attack_speed",
+									"attribute": "attack_speed",
 									"id": "sco_items:magic_book_of_wind",
 									"amount": -0.7,
 									"operation": "add_multiplied_base",

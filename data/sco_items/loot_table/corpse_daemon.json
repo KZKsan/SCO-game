@@ -79,7 +79,7 @@
 								},
 								[
 									{
-										"translate": "attribute.name.generic.attack_speed",
+										"translate": "attribute.name.attack_speed",
 										"color": "red",
 										"italic": false
 									},
@@ -91,7 +91,7 @@
 								],
 								[
 									{
-										"translate": "attribute.name.generic.attack_damage",
+										"translate": "attribute.name.attack_damage",
 										"color": "blue",
 										"italic": false
 									},
@@ -132,14 +132,14 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.attack_speed",
+									"attribute": "attack_speed",
 									"id": "sco_items:corpse_daemon",
 									"amount": -0.7,
 									"operation": "add_multiplied_total",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"id": "sco_items:corpse_daemon",
 									"amount": 2,
 									"operation": "add_value",

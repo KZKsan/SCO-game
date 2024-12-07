@@ -9,10 +9,10 @@
                     "functions": [
                         {
                             "function": "set_name",
+                            "target": "item_name",
                             "name": {
                                 "translate": "item.sco_items.mini_healing_potion",
                                 "fallback": "ミニヒールポーション",
-                                "italic": false,
                                 "color": "white"
                             }
                         },
@@ -33,15 +33,22 @@
                                 "food": {
                                     "nutrition": 0,
                                     "saturation": 0,
-                                    "can_always_eat": true,
-                                    "eat_seconds": 0.05,
-                                    "effects": [
+                                    "can_always_eat": true
+                                },
+                                "consumable": {
+                                    "consume_seconds": 0.05,
+                                    "animation": "drink",
+                                    "sound": "entity.generic.drink",
+                                    "on_consume_effects": [
                                         {
-                                            "effect": {
-                                                "id": "regeneration",
-                                                "amplifier": 5,
-                                                "duration": 2
-                                            }
+                                            "type": "apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "regeneration",
+                                                    "amplifier": 5,
+                                                    "duration": 2
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -49,7 +56,11 @@
                         },
                         {
                             "function": "set_custom_data",
-                            "tag": "{item_functions:{mini_healing_potion:1b}}"
+                            "tag": {
+                                "item_functions": {
+                                    "mini_healing_potion": true
+                                }
+                            }
                         }
                     ]
                 }

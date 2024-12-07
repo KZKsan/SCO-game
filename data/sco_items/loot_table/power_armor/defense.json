@@ -43,7 +43,7 @@
                                     "slot": "chest",
                                     "amount": 6,
                                     "operation": "add_value",
-                                    "attribute": "generic.armor",
+                                    "attribute": "armor",
                                     "id": "sco_items:power_armor.defense"
                                 }
                             ]

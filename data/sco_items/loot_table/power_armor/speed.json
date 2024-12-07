@@ -52,7 +52,7 @@
                                     "slot": "chest",
                                     "amount": 1.4,
                                     "operation": "add_multiplied_total",
-                                    "attribute": "generic.movement_speed",
+                                    "attribute": "movement_speed",
                                     "id": "sco_items:power_armor.speed"
                                 }
                             ]

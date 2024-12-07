@@ -20,7 +20,7 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"id": "sco_items:safety_helmet",
 									"amount": -0.2,
 									"operation": "add_multiplied_total",

@@ -69,6 +69,13 @@
     execute as @a[scores={corpse_daemon.cooldown=1..}] run function sco_items:item_functions/corpse_daemon/cooldown/
     ##wind_mace
     execute as @a[scores={wind_mace.cooldown=1..}] run function sco_items:item_functions/wind_mace/cooldown
+    ##trishula
+    execute as @a unless score @s trishula.used matches -2147483648..2147483647 run scoreboard players set @s trishula.used 0
+    execute as @a unless score @s trishula.used_time matches -2147483648..2147483647 run scoreboard players set @s trishula.used_time 0
+    scoreboard players remove @a[scores={trishula.used=1..}] trishula.used 1
+    scoreboard players add @a[scores={trishula.used=1,trishula.used_time=0..9}] trishula.used_time 1
+    execute as @a[scores={trishula.used=0,trishula.used_time=10}] run function sco_items:item_functions/trishula/effect
+    scoreboard players set @a[scores={trishula.used=0}] trishula.used_time 0
 
 # smite_attack
     tag @a[tag=item_function.smite_attack.already] remove item_function.smite_attack.already
