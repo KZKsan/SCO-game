@@ -37,7 +37,7 @@
 						},
 						[
 							{
-								"translate": "attribute.name.generic.armor",
+								"translate": "attribute.name.armor",
 								"color": "blue",
 								"italic": false
 							},

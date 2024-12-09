@@ -27,7 +27,7 @@
 								},
 								[
 									{
-										"translate": "attribute.name.generic.armor",
+										"translate": "attribute.name.armor",
 										"color": "red",
 										"italic": false
 									},
@@ -50,7 +50,7 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.armor",
+									"attribute": "armor",
 									"id": "sco_items:arbalest",
 									"amount": -2,
 									"operation": "add_value",

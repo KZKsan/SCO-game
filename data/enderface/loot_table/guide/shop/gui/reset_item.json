@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bedrock",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "sco.guide.shop.gui.reset_item",
+                                "fallback": ">アイテムをリセット",
+                                "color": "#AA0000",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{enderface_item:1b,click_events:{click_sounds:[{sound:\"ui.button.click\"}]}}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "sco.guide.shop.gui.reset_item.description.0",
+                                    "fallback": "[%s]で初期配布時のアイテムに戻す",
+                                    "with": [
+                                        {
+                                            "keybind": "key.attack"
+                                        }
+                                    ],
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

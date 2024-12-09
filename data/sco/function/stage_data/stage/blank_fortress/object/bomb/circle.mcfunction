@@ -3,7 +3,7 @@
 
 # [ImportKey]: NobwRALgngDgpmAXGAxgSwE4oDYIDRgCuhaAJkmAMwAcATNZQEYq0C0pKAbGwCymUBGVgEMArLSECAZpQCcPUZ2pxZKWWAIA7YQFsEyQBxyGsDGEZdAZyTgUAe0KaISSqIIo4juBmtgAbsOxCfXAADyQABgIoCIBfGIJzUjRCK0RaAgsIMydESLA4bGw0GAt9AXC8jFssiH08tAsAUULi0saAR0IA7CgAZVN3ckQpANK4vHBoeAoizXwiEiGwUgFqaTgAdmpWcWFw1j4VVgZSOFYUDc5y0VFNjZRKY209CkB6hkBbhkBOhgFjU3MdVI2eyOJCcAhSKo6Hz+QLBMBhRCscIAOlcYGiuXGkFs0ICQR8CJRaIx4SxtikUlKOTyjDgAC80F4IgQGgAhemMjAdLqFPoDOBDEbYMbxSawfRgWbzYhkCjUeSUfjcA6nIQ8WSiDasWS0TgobXhCmcHjUUSkUjKJ66CUfT60X5mSw+OwOHJgsAQ2xQxDgGH4n3w5nopBI1FYiA4gN+uGEqIRMPxMDkylwakEWkMpm5FkWdmZrmdbp84SDJBCkUAXSAA_3
 # クロス1
-particle dust{color:[1.0,0.0,0.0],scale:1} ^-0.5 ^ ^0 0 0 0 0 1
+particle dust{color:[1.0,0.0,0.0],scale:1} ^-0.5 ^ ^0 0 0 0 0 1 force @a[distance=..60]
 particle dust{color:[1.0,0.0,0.0],scale:1} ^-0.3 ^ ^0 0 0 0 0 1 force @a[distance=..60]
 particle dust{color:[1.0,0.0,0.0],scale:1} ^-0.1 ^ ^0 0 0 0 0 1 force @a[distance=..60]
 particle dust{color:[1.0,0.0,0.0],scale:1} ^0.1 ^ ^0 0 0 0 0 1 force @a[distance=..60]

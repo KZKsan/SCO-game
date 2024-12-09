@@ -19,14 +19,14 @@
                 "function": "set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "generic.knockback_resistance",
+                    "attribute": "knockback_resistance",
                     "id": "sco_items:hard_boots",
                     "amount": 0.3,
                     "operation": "add_value",
                     "slot": "feet"
                   },
                   {
-                    "attribute": "generic.armor",
+                    "attribute": "armor",
                     "id": "sco_items:hard_boots",
                     "amount": 1,
                     "operation": "add_value",

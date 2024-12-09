@@ -19,14 +19,14 @@
                             "function": "set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "player.entity_interaction_range",
+                                    "attribute": "entity_interaction_range",
                                     "id": "sco_items:throwing_knife",
                                     "slot": "mainhand",
                                     "amount": 13,
                                     "operation": "add_value"
                                 },
                                 {
-                                    "attribute": "generic.attack_speed",
+                                    "attribute": "attack_speed",
                                     "id": "sco_items:throwing_knife",
                                     "slot": "mainhand",
                                     "amount": -2.4,

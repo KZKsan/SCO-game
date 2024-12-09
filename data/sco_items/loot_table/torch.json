@@ -36,14 +36,14 @@
                             "function": "set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "generic.attack_speed",
+                                    "attribute": "attack_speed",
                                     "id": "sco_items:torch",
                                     "amount": -0.8,
                                     "operation": "add_multiplied_base",
                                     "slot": "mainhand"
                                 },
                                 {
-                                    "attribute": "generic.attack_damage",
+                                    "attribute": "attack_damage",
                                     "id": "sco_items:torch",
                                     "amount": 2.5,
                                     "operation": "add_value",

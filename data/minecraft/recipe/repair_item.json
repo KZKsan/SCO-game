@@ -1,8 +1,8 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:debug_stick"
-    },
+    "ingredient": [
+        "minecraft:debug_stick"
+    ],
     "result": {
         "id": "minecraft:debug_stick"
     }

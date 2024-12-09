@@ -19,14 +19,14 @@
                             "function": "set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "generic.armor",
+                                    "attribute": "armor",
                                     "id": "sco_items:step_boots",
                                     "amount": 2,
                                     "operation": "add_value",
                                     "slot": "feet"
                                 },
                                 {
-                                    "attribute": "generic.step_height",
+                                    "attribute": "step_height",
                                     "id": "sco_items:step_boots",
                                     "amount": 0.5,
                                     "operation": "add_value",

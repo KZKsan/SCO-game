@@ -19,14 +19,14 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.movement_speed",
+									"attribute": "movement_speed",
 									"id": "sco_items:fall_boots",
 									"amount": 0.01,
 									"operation": "add_multiplied_total",
 									"slot": "feet"
 								},
 								{
-									"attribute": "generic.armor",
+									"attribute": "armor",
 									"id": "sco_items:fall_boots",
 									"amount": 1,
 									"operation": "add_value",

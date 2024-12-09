@@ -33,7 +33,7 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.armor",
+									"attribute": "armor",
 									"id": "sco_items:aqua_boots",
 									"amount": 1,
 									"operation": "add_value",

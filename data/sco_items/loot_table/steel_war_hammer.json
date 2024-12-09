@@ -33,28 +33,28 @@
                             "function": "set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "generic.movement_speed",
+                                    "attribute": "movement_speed",
                                     "id": "sco_items:steel_war_hammer",
                                     "amount": -0.4,
                                     "operation": "add_multiplied_total",
                                     "slot": "mainhand"
                                 },
                                 {
-                                    "attribute": "generic.attack_speed",
+                                    "attribute": "attack_speed",
                                     "id": "sco_items:steel_war_hammer",
                                     "amount": -0.9,
                                     "operation": "add_multiplied_base",
                                     "slot": "mainhand"
                                 },
                                 {
-                                    "attribute": "generic.attack_damage",
+                                    "attribute": "attack_damage",
                                     "id": "sco_items:steel_war_hammer",
                                     "amount": 14,
                                     "operation": "add_value",
                                     "slot": "mainhand"
                                 },
                                 {
-                                    "attribute": "generic.knockback_resistance",
+                                    "attribute": "knockback_resistance",
                                     "id": "sco_items:steel_war_hammer",
                                     "amount": 0.3,
                                     "operation": "add_value",
