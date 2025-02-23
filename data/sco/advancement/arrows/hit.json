@@ -7,7 +7,13 @@
                     "type": {
                         "direct_entity": {
                             "type": "#arrows"
-                        }
+                        },
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "sco:is_hit_arrow"
+                            }
+                        ]
                     },
                     "blocked": false
                 }
