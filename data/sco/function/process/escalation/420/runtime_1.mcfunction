@@ -5,8 +5,8 @@ team join blue @a[tag=join_blue]
 gamemode adventure @a[gamemode=!adventure,predicate=sco:team_join,team=!spectator]
 clear @a[predicate=sco:team_join,team=!spectator]
 data modify storage sco:data escalation.pattern set value [0,0,0]
-execute store result storage sco:data escalation.pattern[0] int 1 run random value 0..1
-execute store result storage sco:data escalation.pattern[1] int 1 run random value 0..1
+execute store result storage sco:data escalation.pattern[0] int 1 run random value 0..3
+execute store result storage sco:data escalation.pattern[1] int 1 run random value 0..4
 execute store result storage sco:data escalation.pattern[2] int 1 run random value 0..1
 execute store result storage sco:data escalation.loot.red_lvl int 1 run scoreboard players get #blue_score game
 execute store result storage sco:data escalation.loot.blue_lvl int 1 run scoreboard players get #red_score game

@@ -13,6 +13,7 @@ tag @a[predicate=sco:team_join,team=!spectator,tag=rg.item_function_limit] remov
 tag @a[predicate=sco:team_join,team=!spectator,tag=rg.penalty_area.penalty] remove rg.penalty_area.penalty
 tag @a[predicate=sco:team_join,team=!spectator,tag=rg.penalty_area.death] remove rg.penalty_area.death
 execute as @e[type=#arrows] if function sco:regine/can_pickup_arrows/test run kill
+execute as @e[type=trident] if function sco:regine/thrown_tridents/test run kill
 effect clear @a[predicate=sco:team_join]
 
 # function sco:player/result/mvp/text_mvp

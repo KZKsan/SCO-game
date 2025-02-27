@@ -1,6 +1,6 @@
-#>sco_items:kit/escalation/lvl1/1
+#>sco_items:kit/escalation/lvl1/2
 #@public
-loot give @s loot sco_items:stone_sword
+give @s wooden_axe
 loot give @s loot sco_items:shield
 give @s leather_chestplate
 give @s emerald 8
