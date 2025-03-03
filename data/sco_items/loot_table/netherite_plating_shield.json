@@ -36,7 +36,7 @@
                                 },
                                 [
                                     {
-                                        "translate": "attribute.name.generic.movement_speed",
+                                        "translate": "attribute.name.movement_speed",
                                         "color": "red",
                                         "italic": false
                                     },
@@ -81,7 +81,7 @@
                                 {
                                     "slot": "hand",
                                     "id": "sco_items:netherite_plating_shield",
-                                    "attribute": "generic.movement_speed",
+                                    "attribute": "movement_speed",
                                     "operation": "add_multiplied_base",
                                     "amount": -0.2
                                 }

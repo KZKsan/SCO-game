@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "used": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "potion"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sco_items:item_functions/potion/used"
+    }
+}

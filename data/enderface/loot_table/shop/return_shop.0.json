@@ -17,7 +17,7 @@
                         },
                         {
                             "function": "set_custom_data",
-                            "tag": "{click_events:{click_sounds:[{sound:\"ui.button.click\"}],change_gui:\"shop/0\"},enderface_item:1b}"
+                            "tag": "{click_events:{click_sounds:[{sound:\"ui.button.click\"}],back_gui:1b},enderface_item:1b}"
                         }
                     ]
                 }

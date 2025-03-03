@@ -9,6 +9,8 @@
         "enderface:gui_layoutes/shop/set_trade_data/category/others",
         "enderface:gui_layoutes/shop/set_trade_data/category/sell_item",
         "enderface:gui_layoutes/shop/set_trade_data/check_data/",
+        "enderface:gui_layoutes/shop/set_trade_data/category/guide_shop_type_0",
+        "enderface:gui_layoutes/shop/set_trade_data/category/guide_shop_type_sell",
 
         "enderface:gui_layoutes/shop/set_trade_data/end"
     ]

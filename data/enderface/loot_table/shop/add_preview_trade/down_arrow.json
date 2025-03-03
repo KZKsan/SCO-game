@@ -40,7 +40,8 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "hide_tooltip": {}
+                                "hide_tooltip": {},
+                                "hide_additional_tooltip": {}
                             }
                         }
                     ]

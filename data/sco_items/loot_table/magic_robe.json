@@ -19,14 +19,14 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.armor",
+									"attribute": "armor",
 									"id": "sco_items:magic_robe",
 									"amount": 8,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "generic.movement_speed",
+									"attribute": "movement_speed",
 									"id": "sco_items:magic_robe",
 									"amount": 0.15,
 									"operation": "add_multiplied_total",

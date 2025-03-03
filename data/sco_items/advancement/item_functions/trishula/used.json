@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "used": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "trident"
+                    ],
+                    "components": {
+                        "custom_data": {
+                            "item_functions": {
+                                "trishula": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sco_items:item_functions/trishula/used"
+    }
+}

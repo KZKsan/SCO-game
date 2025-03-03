@@ -6,9 +6,9 @@ execute unless score @s stage_object.count.0 matches -2147483648..2147483647 run
 execute unless score @s stage_object.cooldown matches -2147483648..2147483647 run scoreboard players set @s stage_object.cooldown 0
 scoreboard players add @s[scores={stage_object.count.0=1..}] stage_object.count.0 1
 scoreboard players set @s[scores={stage_object.count.0=63..}] stage_object.count.0 0
-execute if score @s stage_object.count.1 = #blank_fortress.power_bullet.require_fuel stage_object.configs if data entity @s[scores={stage_object.cooldown=0}] interaction run function sco:stage_data/stage/blank_fortress/object/power_bullet/click/launch
-execute if score @s stage_object.count.1 < #blank_fortress.power_bullet.require_fuel stage_object.configs if data entity @s[scores={stage_object.cooldown=0}] interaction if function sco:stage_data/stage/blank_fortress/object/put_fuel/test run function sco:stage_data/stage/blank_fortress/object/put_fuel/ {name:"#blank_fortress.power_bullet.require_fuel"}
-data remove entity @s interaction
+execute if score @s[scores={stage_object.cooldown=0}] stage_object.count.1 = #blank_fortress.power_bullet.require_fuel stage_object.configs on passengers if data entity @s[type=interaction] interaction on vehicle run function sco:stage_data/stage/blank_fortress/object/power_bullet/click/launch
+execute if score @s[scores={stage_object.cooldown=0}] stage_object.count.1 < #blank_fortress.power_bullet.require_fuel stage_object.configs on passengers if data entity @s[type=interaction] interaction if function sco:stage_data/stage/blank_fortress/object/put_fuel/test on vehicle run function sco:stage_data/stage/blank_fortress/object/put_fuel/ {name:"#blank_fortress.power_bullet.require_fuel"}
+execute on passengers run data remove entity @s[type=interaction] interaction
 
 execute if entity @s[scores={stage_object.count.0=1..40}] positioned ~ ~5 ~ run particle enchant ~ ~ ~ 0.3 1 0.3 0 2 force @a[distance=..80]
 execute if entity @s[scores={stage_object.count.0=1..40}] positioned ~ ~5 ~ run particle portal ~ ~ ~ 2 1 2 0 2 force @a[distance=..80]

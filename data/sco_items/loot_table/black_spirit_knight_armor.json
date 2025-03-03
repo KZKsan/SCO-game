@@ -28,35 +28,35 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.armor",
+                  "attribute": "armor",
                   "id": "sco_items:black_spirit_knight_armor",
                   "amount": 10,
                   "operation": "add_value",
                   "slot": "chest"
                 },
                 {
-                  "attribute": "generic.armor_toughness",
+                  "attribute": "armor_toughness",
                   "id": "sco_items:black_spirit_knight_armor",
                   "amount": 2,
                   "operation": "add_value",
                   "slot": "chest"
                 },
                 {
-                  "attribute": "generic.max_health",
+                  "attribute": "max_health",
                   "id": "sco_items:black_spirit_knight_armor",
                   "amount": 16,
                   "operation": "add_value",
                   "slot": "chest"
                 },
                 {
-                  "attribute": "generic.knockback_resistance",
+                  "attribute": "knockback_resistance",
                   "id": "sco_items:black_spirit_knight_armor",
                   "amount": 0.5,
                   "operation": "add_value",
                   "slot": "chest"
                 },
                 {
-                  "attribute": "generic.movement_speed",
+                  "attribute": "movement_speed",
                   "id": "sco_items:black_spirit_knight_armor",
                   "amount": -0.1,
                   "operation": "add_multiplied_total",

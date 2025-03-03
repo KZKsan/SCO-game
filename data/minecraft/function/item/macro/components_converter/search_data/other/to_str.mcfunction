@@ -1,0 +1,1 @@
+$data modify storage _ item_data_tmp.data_str append value '$(data_fetch)'

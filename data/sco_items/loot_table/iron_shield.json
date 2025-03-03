@@ -26,7 +26,7 @@
 								},
 								[
 									{
-										"translate": "attribute.name.generic.movement_speed",
+										"translate": "attribute.name.movement_speed",
 										"color": "red",
 										"italic": false
 									},
@@ -38,7 +38,7 @@
 								],
 								[
 									{
-										"translate": "attribute.name.generic.knockback_resistance",
+										"translate": "attribute.name.knockback_resistance",
 										"color": "blue",
 										"italic": false
 									},
@@ -50,7 +50,7 @@
 								],
 								[
 									{
-										"translate": "attribute.name.generic.armor",
+										"translate": "attribute.name.armor",
 										"color": "blue",
 										"italic": false
 									},
@@ -67,21 +67,21 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.movement_speed",
+									"attribute": "movement_speed",
 									"id": "sco_items:iron_shield",
 									"amount": -0.3,
 									"operation": "add_multiplied_base",
 									"slot": "hand"
 								},
 								{
-									"attribute": "generic.knockback_resistance",
+									"attribute": "knockback_resistance",
 									"id": "sco_items:iron_shield",
 									"amount": 0.6,
 									"operation": "add_value",
 									"slot": "hand"
 								},
 								{
-									"attribute": "generic.armor",
+									"attribute": "armor",
 									"id": "sco_items:iron_shield",
 									"amount": 2,
 									"operation": "add_value",

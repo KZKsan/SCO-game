@@ -31,42 +31,42 @@
                     "function": "set_attributes",
                     "modifiers": [
                         {
-                            "attribute": "generic.attack_damage",
+                            "attribute": "attack_damage",
                             "id": "sco_items:crush_grove",
                             "amount": 6.5,
                             "operation": "add_value",
                             "slot": "mainhand"
                         },
                         {
-                            "attribute": "generic.attack_speed",
+                            "attribute": "attack_speed",
                             "id": "sco_items:crush_grove",
                             "amount": -0.5,
                             "operation": "add_value",
                             "slot": "mainhand"
                         },
                         {
-                            "attribute": "player.entity_interaction_range",
+                            "attribute": "entity_interaction_range",
                             "id": "sco_items:crush_grove",
                             "amount": -0.20,
                             "operation": "add_multiplied_base",
                             "slot": "mainhand"
                         },
                         {
-                            "attribute": "generic.jump_strength",
+                            "attribute": "jump_strength",
                             "id": "sco_items:crush_grove",
                             "amount": -1,
                             "operation": "add_multiplied_total",
                             "slot": "mainhand"
                         },
                         {
-                            "attribute": "generic.step_height",
+                            "attribute": "step_height",
                             "id": "sco_items:crush_grove",
                             "amount": 0.5,
                             "operation": "add_value",
                             "slot": "mainhand"
                         },
                         {
-                            "attribute": "generic.movement_speed",
+                            "attribute": "movement_speed",
                             "id": "sco_items:crush_grove",
                             "amount": -0.15,
                             "operation": "add_multiplied_base",

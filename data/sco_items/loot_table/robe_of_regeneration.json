@@ -38,21 +38,21 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.armor",
+									"attribute": "armor",
 									"id": "sco_items:robe_of_regeneration",
 									"amount": 5,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"id": "sco_items:robe_of_regeneration",
 									"amount": -1,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "generic.max_health",
+									"attribute": "max_health",
 									"id": "sco_items:robe_of_regeneration",
 									"amount": -4,
 									"operation": "add_value",

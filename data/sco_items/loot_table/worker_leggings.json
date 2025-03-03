@@ -20,21 +20,21 @@
                             "function": "set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "generic.armor",
+                                    "attribute": "armor",
                                     "id": "sco_items:worker_leggings",
                                     "amount": 3,
                                     "operation": "add_value",
                                     "slot": "legs"
                                 },
                                 {
-                                    "attribute": "generic.armor_toughness",
+                                    "attribute": "armor_toughness",
                                     "id": "sco_items:worker_leggings",
                                     "amount": 3,
                                     "operation": "add_value",
                                     "slot": "legs"
                                 },
                                 {
-                                    "attribute": "generic.movement_speed",
+                                    "attribute": "movement_speed",
                                     "id": "sco_items:worker_leggings",
                                     "amount": 0.5,
                                     "operation": "add_multiplied_total",

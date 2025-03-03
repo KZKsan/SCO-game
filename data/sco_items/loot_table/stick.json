@@ -29,14 +29,14 @@
                             "function": "set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "generic.attack_damage",
+                                    "attribute": "attack_damage",
                                     "id": "sco_items:stick",
                                     "amount": 2,
                                     "operation": "add_value",
                                     "slot": "mainhand"
                                 },
                                 {
-                                    "attribute": "generic.attack_speed",
+                                    "attribute": "attack_speed",
                                     "id": "sco_items:stick",
                                     "amount": -0.25,
                                     "operation": "add_multiplied_total",

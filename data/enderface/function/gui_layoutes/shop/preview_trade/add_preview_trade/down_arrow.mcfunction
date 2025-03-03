@@ -1,6 +1,8 @@
 #>enderface:gui_layoutes/shop/preview_trade/add_preview_trade/down_arrow
 #@within enderface:gui_layoutes/shop/preview_trade/add_preview_trade/
-loot replace entity @e[type=chest_minecart,tag=gui_layout_item,distance=..2,limit=1] container.0 loot enderface:shop/add_preview_trade/down_arrow
+loot replace entity @n[type=chest_minecart,tag=gui_layout_item,distance=..2] container.0 loot enderface:shop/add_preview_trade/down_arrow
 execute store result score #page _ run data get storage p-storage _[0].data.enderface.shop.preview_trade.page
-execute store result entity @e[type=chest_minecart,tag=gui_layout_item,distance=..2,limit=1] Items[0].components."minecraft:custom_data".preview_trade_page int 1 run scoreboard players add #page _ 1
-item replace entity @s enderchest.24 from entity @e[type=chest_minecart,tag=gui_layout_item,distance=..2,limit=1] container.0
+execute store result entity @n[type=chest_minecart,tag=gui_layout_item,distance=..2] Items[0].components."minecraft:custom_data".preview_trade_page int 1 run scoreboard players add #page _ 1
+execute if data storage enderface:shop guide run item modify entity @n[type=chest_minecart,tag=gui_layout_item,distance=..2] container.0 [{"function":"set_name","name":{"translate": "sco.guide.shop.gui.change_trade","fallback": ">取引内容切り替え","with": [{"keybind": "key.attack","color": "white"}],"italic": false,"color": "#ffffff"}},{"function":"set_lore","mode":"append","lore":[{"translate": "sco.guide.shop.gui.down_arrow.description.0","fallback": "[%s]で下にスクロール","with": [{"keybind": "key.attack","color": "white"}],"italic": false,"color": "#ffffff"}]}]
+execute if data storage enderface:shop guide run data remove entity @n[type=chest_minecart,tag=gui_layout_item,distance=..2] Items[0].components."minecraft:hide_tooltip"
+item replace entity @s enderchest.24 from entity @n[type=chest_minecart,tag=gui_layout_item,distance=..2] container.0

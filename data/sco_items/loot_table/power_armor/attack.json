@@ -43,28 +43,28 @@
                                     "slot": "chest",
                                     "amount": 4,
                                     "operation": "add_value",
-                                    "attribute": "generic.armor",
+                                    "attribute": "armor",
                                     "id": "sco_items:power_armor.attack"
                                 },
                                 {
                                     "slot": "chest",
                                     "amount": 0.4,
                                     "operation": "add_multiplied_total",
-                                    "attribute": "generic.attack_damage",
+                                    "attribute": "attack_damage",
                                     "id": "sco_items:power_armor.attack"
                                 },
                                 {
                                     "slot": "chest",
                                     "amount": 0.3,
                                     "operation": "add_multiplied_total",
-                                    "attribute": "generic.attack_speed",
+                                    "attribute": "attack_speed",
                                     "id": "sco_items:power_armor.attack"
                                 },
                                 {
                                     "slot": "chest",
                                     "amount": -0.5,
                                     "operation": "add_multiplied_total",
-                                    "attribute": "generic.movement_speed",
+                                    "attribute": "movement_speed",
                                     "id": "sco_items:power_armor.attack"
                                 }
                             ]

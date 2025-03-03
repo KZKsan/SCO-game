@@ -3,10 +3,10 @@
 function sco_items:item_functions/crows_sorrow/step/reset
 scoreboard players operation @s crows_sorrow_cooldown = #crows_sorrow.set_cooltime sco_items.configs
 scoreboard players add @s crows_sorrow_count 1
-attribute @s generic.movement_speed modifier add sco_items:item_functions.crows_sorrow.step 10 add_multiplied_base
-attribute @s generic.knockback_resistance modifier add sco_items:item_functions.crows_sorrow.step 1 add_value
-attribute @s generic.jump_strength modifier add sco_items:item_functions.crows_sorrow.step -1000 add_multiplied_total
-attribute @s generic.gravity modifier add sco_items:item_functions.crows_sorrow.step 100 add_multiplied_base
+attribute @s movement_speed modifier add sco_items:item_functions.crows_sorrow.step 10 add_multiplied_base
+attribute @s knockback_resistance modifier add sco_items:item_functions.crows_sorrow.step 1 add_value
+attribute @s jump_strength modifier add sco_items:item_functions.crows_sorrow.step -1000 add_multiplied_total
+attribute @s gravity modifier add sco_items:item_functions.crows_sorrow.step 100 add_multiplied_base
 
 
 #effect give @s levitation 1 200

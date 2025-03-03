@@ -38,7 +38,7 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.movement_speed",
+									"attribute": "movement_speed",
 									"id": "sco_items:putuo_boots",
 									"amount": 0.1,
 									"operation": "add_multiplied_total",

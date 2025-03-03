@@ -1,0 +1,32 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "consumable": {
+                "consume_seconds": 0.3,
+                "animation": "drink",
+                "sound": "entity.generic.drink",
+                "has_consume_particles": false
+            }
+        }
+    },
+    {
+        "function": "set_lore",
+        "lore": [
+            {
+                "translate": "item.sco_items.alchemy_hat.potion",
+                "fallback": "効果適応済み: 錬金帽子",
+                "color": "gold"
+            }
+        ],
+        "mode": "append"
+    },
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "item_functions": {
+                "alchemy_hat_potion": true
+            }
+        }
+    }
+]

@@ -1,0 +1,78 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "leather_helmet",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "item.sco_items.alchemy_hat",
+                                "fallback": "錬金帽子",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "item.sco_items.alchemy_hat.description.0",
+                                    "fallback": "錬金術師による、特別な帽子。"
+                                },
+                                {
+                                    "translate": "item.sco_items.alchemy_hat.description.1",
+                                    "fallback": "ポーションを早く飲める。"
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "armor",
+                                    "id": "sco_items:alchemy_hat",
+                                    "amount": 2,
+                                    "operation": "add_value",
+                                    "slot": "head"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "quick_charge": 1,
+                                "unbreaking": 10
+                            }
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": {
+                                "item_functions": {
+                                    "alchemy_hat": true
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "dyed_color": {
+                                    "rgb": 16725558,
+                                    "show_in_tooltip": false
+                                },
+                                "trim": {
+                                    "material": "gold",
+                                    "pattern": "host",
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

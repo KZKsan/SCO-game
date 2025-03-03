@@ -36,7 +36,7 @@
 								},
 								[
 									{
-										"translate": "attribute.name.generic.knockback_resistance",
+										"translate": "attribute.name.knockback_resistance",
 										"color": "blue",
 										"italic": false
 									},
@@ -48,7 +48,7 @@
 								],
 								[
 									{
-										"translate": "attribute.name.generic.armor",
+										"translate": "attribute.name.armor",
 										"color": "red",
 										"italic": false
 									},
@@ -65,7 +65,7 @@
 										"italic": false
 									},
 									{
-										"translate": "attribute.name.generic.movement_speed",
+										"translate": "attribute.name.movement_speed",
 										"color": "red",
 										"italic": false
 									}
@@ -77,21 +77,21 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.armor",
+									"attribute": "armor",
 									"id": "sco_items:composite_bow",
 									"amount": -6,
 									"operation": "add_value",
 									"slot": "hand"
 								},
 								{
-									"attribute": "generic.knockback_resistance",
+									"attribute": "knockback_resistance",
 									"id": "sco_items:composite_bow",
 									"amount": 0.6,
 									"operation": "add_value",
 									"slot": "hand"
 								},
 								{
-									"attribute": "generic.movement_speed",
+									"attribute": "movement_speed",
 									"id": "sco_items:composite_bow",
 									"amount": -0.9,
 									"operation": "add_multiplied_total",

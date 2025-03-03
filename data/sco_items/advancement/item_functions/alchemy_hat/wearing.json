@@ -1,0 +1,32 @@
+{
+    "parent": "sco_items:root",
+    "criteria": {
+        "wesco_items:item_functions/alchemy_hat/wearing": {
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "head": {
+                                    "predicates": {
+                                        "custom_data": {
+                                            "item_functions": {
+                                                "alchemy_hat": true
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "sco_items:item_functions/alchemy_hat/wearing"
+    }
+}

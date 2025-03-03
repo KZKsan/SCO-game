@@ -10,5 +10,5 @@ data remove storage enderface:data shop.inventory[{Slot:103b}]
 data remove storage enderface:data shop.inventory[{Slot:-106b}]
 execute store result score # _ run data get storage enderface:data shop.inventory
 scoreboard players operation # _ += #_ _
-execute store success storage enderface:data shop.full byte 1 if score # _ matches ..36
+execute store success storage enderface:data shop.full byte 1 if score # _ matches ..31
 execute if data storage enderface:data shop{full:0b} run data modify storage enderface:data shop.success set value -1b

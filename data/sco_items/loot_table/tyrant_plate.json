@@ -30,63 +30,63 @@
                             "function": "set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "generic.armor",
+                                    "attribute": "armor",
                                     "id": "sco_items:tyrant_plate",
                                     "amount": 2,
                                     "operation": "add_value",
                                     "slot": "chest"
                                 },
                                 {
-                                    "attribute": "generic.max_health",
+                                    "attribute": "max_health",
                                     "id": "sco_items:tyrant_plate",
                                     "amount": 80,
                                     "operation": "add_value",
                                     "slot": "chest"
                                 },
                                 {
-                                    "attribute": "generic.knockback_resistance",
+                                    "attribute": "knockback_resistance",
                                     "id": "sco_items:tyrant_plate",
                                     "amount": 1,
                                     "operation": "add_value",
                                     "slot": "chest"
                                 },
                                 {
-                                    "attribute": "generic.movement_speed",
+                                    "attribute": "movement_speed",
                                     "id": "sco_items:tyrant_plate",
                                     "amount": -0.5,
                                     "operation": "add_multiplied_total",
                                     "slot": "chest"
                                 },
                                 {
-                                    "attribute": "generic.scale",
+                                    "attribute": "scale",
                                     "id": "sco_items:tyrant_plate",
                                     "amount": 0.5,
                                     "operation": "add_value",
                                     "slot": "chest"
                                 },
                                 {
-                                    "attribute": "generic.jump_strength",
+                                    "attribute": "jump_strength",
                                     "id": "sco_items:tyrant_plate",
                                     "amount": 0.5,
                                     "operation": "add_multiplied_base",
                                     "slot": "chest"
                                 },
                                 {
-                                    "attribute": "generic.safe_fall_distance",
+                                    "attribute": "safe_fall_distance",
                                     "id": "sco_items:tyrant_plate",
                                     "amount": 1,
                                     "operation": "add_multiplied_base",
                                     "slot": "chest"
                                 },
                                 {
-                                    "attribute": "generic.step_height",
+                                    "attribute": "step_height",
                                     "id": "sco_items:tyrant_plate",
                                     "amount": 1,
                                     "operation": "add_multiplied_base",
                                     "slot": "chest"
                                 },
                                 {
-                                    "attribute": "player.entity_interaction_range",
+                                    "attribute": "entity_interaction_range",
                                     "id": "sco_items:tyrant_plate",
                                     "amount": 0.5,
                                     "operation": "add_multiplied_base",

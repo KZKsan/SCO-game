@@ -38,14 +38,14 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.attack_speed",
+									"attribute": "attack_speed",
 									"id": "sco_items:dimensional_sword",
 									"amount": -2.4,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"id": "sco_items:dimensional_sword",
 									"amount": 12,
 									"operation": "add_value",

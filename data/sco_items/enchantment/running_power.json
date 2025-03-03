@@ -52,13 +52,13 @@
                             "speed": 0.01
                         },
                         {
-                            "type": "minecraft:damage_item",
+                            "type": "minecraft:change_item_damage",
                             "amount": 1
                         },
                         {
                             "type": "minecraft:attribute",
                             "id": "sco_items:enchantment.running_power",
-                            "attribute": "minecraft:generic.attack_damage",
+                            "attribute": "minecraft:attack_damage",
                             "amount": {
                                 "type": "minecraft:linear",
                                 "base": 2,
@@ -69,7 +69,7 @@
                         {
                             "type": "minecraft:attribute",
                             "id": "sco_items:enchantment.running_power",
-                            "attribute": "minecraft:generic.attack_knockback",
+                            "attribute": "minecraft:attack_knockback",
                             "amount": {
                                 "type": "minecraft:linear",
                                 "base": 2,
@@ -80,7 +80,7 @@
                         {
                             "type": "minecraft:attribute",
                             "id": "sco_items:enchantment.running_power",
-                            "attribute": "minecraft:generic.movement_speed",
+                            "attribute": "minecraft:movement_speed",
                             "amount": {
                                 "type": "minecraft:linear",
                                 "base": 0.0705,

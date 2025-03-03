@@ -21,14 +21,14 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.attack_speed",
+									"attribute": "attack_speed",
 									"id": "sco_items:reaper_scythe",
 									"amount": -0.65,
 									"operation": "add_multiplied_total",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "generic.attack_damage",
+									"attribute": "attack_damage",
 									"id": "sco_items:reaper_scythe",
 									"amount": 11,
 									"operation": "add_value",

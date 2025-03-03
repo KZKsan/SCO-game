@@ -1,6 +1,16 @@
 {
 	"pack": {
-		"pack_format": 48,
+		"pack_format": 57,
 		"description": "SCO-game"
+	},
+	"filter": {
+		"block": [
+			{
+				"path": "recipe"
+			},
+			{
+				"path": "advancement"
+			}
+		]
 	}
 }

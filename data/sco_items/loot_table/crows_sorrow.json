@@ -35,7 +35,7 @@
                                 },
                                 [
                                     {
-                                        "translate": "attribute.name.generic.attack_speed",
+                                        "translate": "attribute.name.attack_speed",
                                         "color": "red",
                                         "italic": false
                                     },
@@ -47,7 +47,7 @@
                                 ],
                                 [
                                     {
-                                        "translate": "attribute.name.generic.armor",
+                                        "translate": "attribute.name.armor",
                                         "color": "red",
                                         "italic": false
                                     },
@@ -59,7 +59,7 @@
                                 ],
                                 [
                                     {
-                                        "translate": "attribute.name.generic.attack_damage",
+                                        "translate": "attribute.name.attack_damage",
                                         "color": "blue",
                                         "italic": false
                                     },
@@ -78,7 +78,7 @@
                                 },
                                 [
                                     {
-                                        "translate": "attribute.name.generic.attack_speed",
+                                        "translate": "attribute.name.attack_speed",
                                         "color": "blue",
                                         "italic": false
                                     },
@@ -90,7 +90,7 @@
                                 ],
                                 [
                                     {
-                                        "translate": "attribute.name.generic.armor",
+                                        "translate": "attribute.name.armor",
                                         "color": "red",
                                         "italic": false
                                     },
@@ -102,7 +102,7 @@
                                 ],
                                 [
                                     {
-                                        "translate": "attribute.name.generic.attack_damage",
+                                        "translate": "attribute.name.attack_damage",
                                         "color": "blue",
                                         "italic": false
                                     },
@@ -114,7 +114,7 @@
                                 ],
                                 [
                                     {
-                                        "translate": "attribute.name.generic.knockback_resistance",
+                                        "translate": "attribute.name.knockback_resistance",
                                         "color": "blue",
                                         "italic": false
                                     },
@@ -140,21 +140,21 @@
                                     "id": "sco_items:crows_sorrow",
                                     "amount": -2,
                                     "operation": "add_value",
-                                    "attribute": "generic.armor",
+                                    "attribute": "armor",
                                     "slot": "mainhand"
                                 },
                                 {
                                     "id": "sco_items:crows_sorrow",
                                     "amount": -2.4,
                                     "operation": "add_value",
-                                    "attribute": "generic.attack_speed",
+                                    "attribute": "attack_speed",
                                     "slot": "mainhand"
                                 },
                                 {
                                     "id": "sco_items:crows_sorrow",
                                     "amount": 5,
                                     "operation": "add_value",
-                                    "attribute": "generic.attack_damage",
+                                    "attribute": "attack_damage",
                                     "slot": "mainhand"
                                 }
                             ]

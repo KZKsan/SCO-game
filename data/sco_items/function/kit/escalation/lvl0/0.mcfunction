@@ -3,6 +3,7 @@
 give @s wooden_sword
 give @s bow
 give @s leather_chestplate
+give @s leather_boots
 loot give @s loot sco_items:arrow/small_arrow
 loot give @s loot sco_items:arrow/small_arrow
 loot give @s loot sco_items:arrow/small_arrow

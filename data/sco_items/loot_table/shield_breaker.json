@@ -30,7 +30,7 @@
 							"function": "set_attributes",
 							"modifiers": [
 								{
-									"attribute": "generic.attack_speed",
+									"attribute": "attack_speed",
 									"id": "sco_items:shield_breaker",
 									"amount": 500,
 									"operation": "add_multiplied_total",

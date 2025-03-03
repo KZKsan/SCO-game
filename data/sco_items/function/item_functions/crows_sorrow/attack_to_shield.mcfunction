@@ -2,8 +2,8 @@
 #@within advancement sco_items:item_functions/crows_sorrow/attack_to_shield
 
 # reset attack state
-    attribute @s generic.attack_speed modifier remove sco_items:item_functions.crows_sorrow.step
-    attribute @s generic.attack_damage modifier remove sco_items:item_functions.crows_sorrow.step
+    attribute @s attack_speed modifier remove sco_items:item_functions.crows_sorrow.step
+    attribute @s attack_damage modifier remove sco_items:item_functions.crows_sorrow.step
 # set crows_sorrow_count
     scoreboard players set @s crows_sorrow_count 2
 # particle

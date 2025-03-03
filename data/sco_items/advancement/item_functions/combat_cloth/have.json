@@ -1,23 +1,23 @@
 {
     "parent": "sco_items:root",
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:tick",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{item_functions:{combat_cloth:1b}}}}]}"
-              }
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{item_functions:{combat_cloth:1b}}}}]}"
+                        }
+                    }
+                ]
             }
-          ]
         }
-      }
     },
     "rewards": {
-      "function": "sco_items:item_functions/combat_cloth/have"
+        "function": "sco_items:item_functions/combat_cloth/have"
     }
   }
   

@@ -19,7 +19,7 @@
                             "function": "set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "generic.armor",
+                                    "attribute": "armor",
                                     "id": "sco_items:sneak_leggings",
                                     "amount": 6,
                                     "operation": "add_value",

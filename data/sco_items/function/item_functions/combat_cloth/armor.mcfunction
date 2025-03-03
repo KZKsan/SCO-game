@@ -1,0 +1,1 @@
+$attribute @s minecraft:armor modifier add sco_items:combat_cloth.armor $(armor) add_value
