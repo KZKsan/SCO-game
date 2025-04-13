@@ -31,8 +31,7 @@
                             "components": {
                                 "trim": {
                                     "material": "gold",
-                                    "pattern": "wayfinder",
-                                    "show_in_tooltip": false
+                                    "pattern": "wayfinder"
                                 }
                             }
                         },
@@ -52,6 +51,12 @@
                             "function": "set_enchantments",
                             "enchantments": {
                                 "projectile_protection": 3
+                            }
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "trim": false
                             }
                         }
                     ]

@@ -48,8 +48,13 @@
                                             "duration": 200
                                         }
                                     ]
-                                },
-                                "hide_additional_tooltip": {}
+                                }
+                            }
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "potion_contents": false
                             }
                         }
                     ]

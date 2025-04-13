@@ -27,13 +27,18 @@
                                             "duration": 1
                                         }
                                     ]
-                                },
-                                "hide_additional_tooltip": {}
+                                }
                             }
                         },
                         {
                             "function": "set_custom_data",
                             "tag": "{item_functions:{no_gravity_arrow:1b}}"
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "potion_contents": false
+                            }
                         }
                     ]
                 }

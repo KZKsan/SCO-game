@@ -17,12 +17,6 @@
                             }
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "hide_additional_tooltip": {}
-                            }
-                        },
-                        {
                             "function": "set_custom_data",
                             "tag": "{enderface_item:1b,click_events:{sco_rule_set:\"escalation\"}}"
                         }

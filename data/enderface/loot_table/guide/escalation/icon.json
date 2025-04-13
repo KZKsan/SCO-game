@@ -16,12 +16,6 @@
                             }
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "hide_additional_tooltip": {}
-                            }
-                        },
-                        {
                             "function": "set_custom_data",
                             "tag": "{enderface_item:1b,click_events:{click_sounds:[{sound:\"ui.button.click\"}],change_gui:\"join_the_game/guide/escalation/\"}}"
                         }

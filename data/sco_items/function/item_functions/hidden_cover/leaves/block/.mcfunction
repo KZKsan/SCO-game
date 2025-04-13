@@ -13,7 +13,7 @@ execute if block ~ ~-0.15 ~ #sco_items:item_functions/hidden_cover/crimson_plank
 execute if block ~ ~-0.15 ~ #sco_items:item_functions/hidden_cover/warped_planks run return run item replace entity @n[type=item_display,tag=hidden_cover,tag=marker,tag=set_data] container.0 with warped_planks 1
 execute if block ~ ~-0.15 ~ #sco_items:item_functions/hidden_cover/grass_block run return run function sco_items:item_functions/hidden_cover/leaves/block/grass_block
 execute if block ~ ~-0.15 ~ #sco_items:item_functions/hidden_cover/none_block run return run tag @n[type=item_display,tag=hidden_cover,tag=marker,tag=set_data] add disable_copy
-loot replace entity @n[type=item_display,tag=hidden_cover,tag=set_data] container.0 mine ~ ~-0.15 ~ diamond_pickaxe[enchantments={levels:{"silk_touch":1}}]
+loot replace entity @n[type=item_display,tag=hidden_cover,tag=set_data] container.0 mine ~ ~-0.15 ~ diamond_pickaxe[enchantments={"silk_touch":1}]
 execute unless block ~ ~-0.15 ~ #slabs unless block ~ ~-0.15 ~ #stairs unless block ~ ~-0.15 ~ #walls run return 1
 execute if block ~ ~-0.15 ~ #slabs run data modify storage sco_items:data hidden_cover.id set string entity @n[type=item_display,tag=hidden_cover,tag=set_data] item.id 0 -5
 execute if block ~ ~-0.15 ~ #stairs run data modify storage sco_items:data hidden_cover.id set string entity @n[type=item_display,tag=hidden_cover,tag=set_data] item.id 0 -7

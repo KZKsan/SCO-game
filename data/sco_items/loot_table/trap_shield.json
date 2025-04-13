@@ -60,7 +60,6 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "hide_additional_tooltip": {},
                                 "damage": 286,
                                 "base_color": "light_gray",
                                 "banner_patterns": [
@@ -90,6 +89,13 @@
                         {
                             "function": "set_custom_data",
                             "tag": "{item_functions:{trap_shield:1b}}"
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "base_color": false,
+                                "banner_patterns": false
+                            }
                         }
                     ]
                 }

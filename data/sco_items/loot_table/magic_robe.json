@@ -45,10 +45,13 @@
 						{
 							"function": "set_components",
 							"components": {
-								"dyed_color": {
-									"rgb": 14474460,
-									"show_in_tooltip": false
-								}
+								"dyed_color": 14474460
+							}
+						},
+						{
+							"function": "toggle_tooltips",
+							"toggles": {
+								"dyed_color": false
 							}
 						}
 					]

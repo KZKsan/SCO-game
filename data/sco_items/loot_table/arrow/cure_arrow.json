@@ -39,13 +39,18 @@
 							"components": {
 								"potion_contents": {
 									"custom_color": 11393254
-								},
-								"hide_additional_tooltip": {}
+								}
 							}
 						},
 						{
 							"function": "set_custom_data",
 							"tag": "{item_functions:{cure_arrow:true}}"
+						},
+						{
+							"function": "toggle_tooltips",
+							"toggles": {
+								"potion_contents": false
+							}
 						}
 					]
 				}

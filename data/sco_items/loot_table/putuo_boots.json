@@ -56,15 +56,18 @@
 						{
 							"function": "set_components",
 							"components": {
-								"dyed_color": {
-									"rgb": 3289650,
-									"show_in_tooltip": false
-								}
+								"dyed_color": 3289650
 							}
 						},
 						{
 							"function": "set_custom_data",
 							"tag": "{item_functions:{passive_effects:[{id:\"jump_boost\",duration:2,amplifier:3,hide_particle:\"false\"}]}}"
+						},
+						{
+							"function": "toggle_tooltips",
+							"toggles": {
+								"dyed_color": false
+							}
 						}
 					]
 				}

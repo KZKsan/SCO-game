@@ -59,15 +59,18 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "dyed_color": {
-                                    "rgb": 16725558,
-                                    "show_in_tooltip": false
-                                },
+                                "dyed_color": 16725558,
                                 "trim": {
                                     "material": "gold",
-                                    "pattern": "host",
-                                    "show_in_tooltip": false
+                                    "pattern": "host"
                                 }
+                            }
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "dyed_color": false,
+                                "trim": false
                             }
                         }
                     ]

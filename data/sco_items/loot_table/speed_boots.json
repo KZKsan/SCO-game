@@ -36,10 +36,13 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "dyed_color": {
-                                    "rgb": 3289855,
-                                    "show_in_tooltip": false
-                                }
+                                "dyed_color": 3289855
+                            }
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "dyed_color": false
                             }
                         }
                     ]

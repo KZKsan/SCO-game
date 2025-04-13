@@ -96,12 +96,6 @@
 							}
 						},
 						{
-							"function": "toggle_tooltips",
-							"toggles": {
-								"attribute_modifiers": false
-							}
-						},
-						{
 							"function": "set_components",
 							"components": {
 								"damage": 246,
@@ -119,8 +113,15 @@
 										"pattern": "gradient_up",
 										"color": "white"
 									}
-								],
-								"hide_additional_tooltip": {}
+								]
+							}
+						},
+						{
+							"function": "toggle_tooltips",
+							"toggles": {
+								"attribute_modifiers": false,
+								"base_color": false,
+								"banner_patterns": false
 							}
 						}
 					]
