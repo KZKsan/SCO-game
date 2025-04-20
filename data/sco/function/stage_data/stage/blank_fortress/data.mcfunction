@@ -10,8 +10,8 @@ data modify storage sco:input penalty_area.input.flags.penalty set value {stage:
 data modify storage sco:input penalty_area.input.flags.death set value {stage:1b,shop:1b,sudden_death:1b}
 data modify storage sco:input penalty_area.input.death append value {name:"stage",1:[-784, -62, -225],2:[-625, -3, -304]}
 data modify storage sco:input penalty_area.input.penalty append value {name:"stage",1:[-784, -62, -225],2:[-625, -7, -304]}
-data modify storage sco:input stage_name set value '{"text":"ウツロヨウサイ"}'
-data modify storage sco:input stage_description set value '{"text":"Edit by KZK1945"}'
+data modify storage sco:input stage_name set value {"text":"ウツロヨウサイ"}
+data modify storage sco:input stage_description set value {"text":"Edit by KZK1945"}
 
 data modify storage sco:input penalty_area.input.penalty append value {name:"shop_red",1:[-615, 15, -256],2:[-625, 8, -273]}
 data modify storage sco:input penalty_area.input.penalty append value {name:"shop_blue",1:[-794, 15, -273],2:[-784, 8, -256]}

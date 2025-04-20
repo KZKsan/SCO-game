@@ -5,19 +5,25 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "netherite_upgrade_smithing_template",
+                    "name": "stick",
                     "functions": [
                         {
                             "function": "set_name",
                             "name": {
                                 "text": ">エスカレーション",
                                 "italic": false,
-                                "color": "aqua"
+                                "color": "dark_aqua"
                             }
                         },
                         {
                             "function": "set_custom_data",
                             "tag": "{enderface_item:1b,click_events:{click_sounds:[{sound:\"ui.button.click\"}],change_gui:\"join_the_game/guide/escalation/\"}}"
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "netherite_upgrade_smithing_template"
+                            }
                         }
                     ]
                 }
