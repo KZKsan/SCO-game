@@ -13,4 +13,3 @@ execute if score #item_macro.test_count _ > #item_macro.count _ run scoreboard p
 $item modify entity @s $(slot_name) set_count_from_score
 scoreboard players operation #item_macro.test_count _ -= @s remove_item_count
 scoreboard players operation #item_macro.count _ -= #item_macro.test_count _
-tellraw @a {score:{name:"#item_macro.count",objective:"_"}}

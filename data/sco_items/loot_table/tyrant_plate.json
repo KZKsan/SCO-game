@@ -39,7 +39,7 @@
                                 {
                                     "attribute": "max_health",
                                     "id": "sco_items:tyrant_plate",
-                                    "amount": 80,
+                                    "amount": 60,
                                     "operation": "add_value",
                                     "slot": "chest"
                                 },
@@ -88,7 +88,7 @@
                                 {
                                     "attribute": "entity_interaction_range",
                                     "id": "sco_items:tyrant_plate",
-                                    "amount": 0.5,
+                                    "amount": 0.3,
                                     "operation": "add_multiplied_base",
                                     "slot": "chest"
                                 }
@@ -97,7 +97,7 @@
                         {
                             "function": "set_enchantments",
                             "enchantments": {
-                                "sco_items:flammability": 4
+                                "sco_items:flammability": 8
                             }
                         },
                         {
