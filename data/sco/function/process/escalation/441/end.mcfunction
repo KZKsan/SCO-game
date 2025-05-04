@@ -8,7 +8,7 @@ execute store result storage timer: time int 1 run scoreboard players get #shop_
 function timer:input
 
 title @a[predicate=sco:team_join,team=!spectator] times 10 40 10
-execute if score #flag game matches 1 run title @a[team=blue] title [{"text":"LEVELE UP!","bold": true, "color": "green"}]
-execute if score #flag game matches 1 run title @a[team=red] title [{"text":"LEVELE KEEP→","bold": true, "color": "dark_aqua"}]
-execute if score #flag game matches 2 run title @a[team=red] title [{"text":"LEVELE UP!","bold": true, "color": "green"}]
-execute if score #flag game matches 2 run title @a[team=blue] title [{"text":"LEVELE KEEP→","bold": true, "color": "dark_aqua"}]
+execute if score #flag game matches 1 run title @a[team=blue] title [{"text":"LEVEL UP!","bold": true, "color": "green"}]
+execute if score #flag game matches 1 run title @a[team=red] title [{"text":"LEVEL KEEP→","bold": true, "color": "dark_aqua"}]
+execute if score #flag game matches 2 run title @a[team=red] title [{"text":"LEVEL UP!","bold": true, "color": "green"}]
+execute if score #flag game matches 2 run title @a[team=blue] title [{"text":"LEVEL KEEP→","bold": true, "color": "dark_aqua"}]
