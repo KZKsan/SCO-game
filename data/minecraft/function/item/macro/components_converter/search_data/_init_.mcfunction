@@ -86,5 +86,6 @@ data modify storage _ item_data_tmp.search_list set value \
         "use_remainder",\
         "writable_book_content",\
         "written_book_content",\
-        "tooltip_display"\
+        "tooltip_display",\
+        "weapon"\
     ]
