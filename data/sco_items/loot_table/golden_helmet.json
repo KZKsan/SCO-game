@@ -20,7 +20,7 @@
                                 {
                                     "attribute": "armor_toughness",
                                     "id": "sco_items:fire_boots",
-                                    "amount": 4,
+                                    "amount": 9,
                                     "operation": "add_value",
                                     "slot": "head"
                                 }
