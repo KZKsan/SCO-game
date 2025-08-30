@@ -12,15 +12,15 @@
                             "modifiers": [
                                 {
                                     "attribute": "armor",
-                                    "id": "sco_items:fire_boots",
-                                    "amount": 1,
-                                    "operation": "add_value",
+                                    "id": "sco_items:golden_helmet",
+                                    "amount": 0.15,
+                                    "operation": "add_multiplied_total",
                                     "slot": "head"
                                 },
                                 {
                                     "attribute": "armor_toughness",
-                                    "id": "sco_items:fire_boots",
-                                    "amount": 9,
+                                    "id": "sco_items:golden_helmet",
+                                    "amount": 3,
                                     "operation": "add_value",
                                     "slot": "head"
                                 }
