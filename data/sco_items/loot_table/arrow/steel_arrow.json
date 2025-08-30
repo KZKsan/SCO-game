@@ -50,8 +50,13 @@
                             "components": {
                                 "potion_contents": {
                                     "custom_color": 10127239
-                                },
-                                "hide_additional_tooltip": {}
+                                }
+                            }
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "potion_contents": false
                             }
                         }
                     ]

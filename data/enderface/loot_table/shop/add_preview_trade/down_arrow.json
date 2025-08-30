@@ -38,10 +38,10 @@
                             "tag": "{enderface_item:1b,click_events:{click_sounds:[{sound:\"ui.button.click\"}]},preview_trade_page:0}"
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "hide_tooltip": {},
-                                "hide_additional_tooltip": {}
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "base_color": false,
+                                "banner_patterns": false
                             }
                         }
                     ]

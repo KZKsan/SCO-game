@@ -125,8 +125,7 @@
                                         }
                                     ]
                                 },
-                                "max_stack_size": 4,
-                                "hide_additional_tooltip": {}
+                                "max_stack_size": 4
                             }
                         },
                         {
@@ -139,6 +138,12 @@
                                     },
                                     "throwing_limit": 30
                                 }
+                            }
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "potion_contents": false
                             }
                         }
                     ]

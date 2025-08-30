@@ -36,8 +36,13 @@
                                             ]
                                         }
                                     ]
-                                },
-                                "hide_additional_tooltip": {}
+                                }
+                            }
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "fireworks": false
                             }
                         }
                     ]

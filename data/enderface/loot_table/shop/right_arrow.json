@@ -45,9 +45,10 @@
                             "tag": "{enderface_item:1b}"
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "hide_tooltip": {}
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "base_color": false,
+                                "banner_patterns": false
                             }
                         }
                     ]

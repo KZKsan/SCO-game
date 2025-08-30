@@ -29,13 +29,6 @@
                             ],
                             "mode": "replace_all"
                         },
-						{
-							"function": "set_components",
-							"components": {
-								"hide_additional_tooltip": {
-								}
-							}
-						},
                         {
                             "function": "set_custom_data",
                             "tag": "{item_functions:{last_one_arrow:1b},cant_pickup:true}"
@@ -46,6 +39,12 @@
                                 "potion_contents": {
                                     "custom_color": 16711935
                                 }
+                            }
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "potion_contents": false
                             }
                         }
                     ]

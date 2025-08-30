@@ -1,0 +1,2 @@
+execute summon splash_potion run function sco_items:item_functions/alchemy_robe/multishot/left with storage sco_items:data alchemy_robe
+execute summon splash_potion run function sco_items:item_functions/alchemy_robe/multishot/right with storage sco_items:data alchemy_robe

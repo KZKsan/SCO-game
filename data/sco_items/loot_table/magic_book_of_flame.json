@@ -76,12 +76,14 @@
                             "function": "set_components",
                             "components": {
                                 "enchantments": {
-                                    "fire_aspect": 3,
-                                    "weapon": 1
+                                    "fire_aspect": 3
                                 },
                                 "max_damage": 10,
                                 "damage": 0,
-                                "max_stack_size": 1
+                                "max_stack_size": 1,
+                                "weapon": {
+                                    "item_damage_per_attack": 1
+                                }
                             }
                         }
                     ]

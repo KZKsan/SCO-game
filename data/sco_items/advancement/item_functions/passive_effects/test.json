@@ -8,7 +8,13 @@
                         "condition": "entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "nbt": "{Inventory:[{Slot:102b}]}"
+                            "equipment": {
+                                "chest": {
+                                    "count": {
+                                    "min": 1
+                                    }
+                                }
+                            }
                         }
                     }
                 ]
@@ -22,7 +28,13 @@
                         "condition": "entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "nbt": "{Inventory:[{Slot:100b}]}"
+                            "equipment": {
+                                "feet": {
+                                    "count": {
+                                        "min": 1
+                                    }
+                                }
+                            }
                         }
                     }
                 ]

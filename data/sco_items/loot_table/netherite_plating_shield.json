@@ -52,7 +52,6 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "hide_additional_tooltip": {},
                                 "damage": 286,
                                 "base_color": "red",
                                 "banner_patterns": [
@@ -90,7 +89,9 @@
                         {
                             "function": "toggle_tooltips",
                             "toggles": {
-                                "attribute_modifiers": false
+                                "attribute_modifiers": false,
+                                "base_color": false,
+                                "banner_patterns": false
                             }
                         },
                         {

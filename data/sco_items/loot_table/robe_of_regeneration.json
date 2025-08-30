@@ -74,15 +74,18 @@
 						{
 							"function": "set_components",
 							"components": {
-								"dyed_color": {
-									"rgb": 15086200,
-									"show_in_tooltip": false
-								}
+								"dyed_color": 15086200
 							}
 						},
 						{
 							"function": "set_custom_data",
 							"tag": "{item_functions:{passive_effects:[{id:\"regeneration\",duration:3,amplifier:1,hide_particle:\"false\",pass_effect:1b}]}}"
+						},
+						{
+							"function": "toggle_tooltips",
+							"toggles": {
+								"dyed_color": false
+							}
 						}
 					]
 				}

@@ -2,6 +2,8 @@
 #@within tag/function enderface:set_trade_data
 function enderface:gui_layoutes/shop/set_trade_data/reset_data
 
+function enderface:gui_layoutes/shop/set_trade_data/single_data/diamond_helmet
+function enderface:gui_layoutes/shop/set_trade_data/single_data/golden_helmet
 function enderface:gui_layoutes/shop/set_trade_data/single_data/safety_helmet
 function enderface:gui_layoutes/shop/set_trade_data/single_data/light_armor
 function enderface:gui_layoutes/shop/set_trade_data/single_data/robe_of_regeneration
@@ -35,6 +37,7 @@ function enderface:gui_layoutes/shop/set_trade_data/single_data/breake_shield
 function enderface:gui_layoutes/shop/set_trade_data/single_data/trap_shield
 
 function enderface:gui_layoutes/shop/set_trade_data/single_data/combat_cloth
+function enderface:gui_layoutes/shop/set_trade_data/single_data/flower_crown
 
 
 data modify storage enderface:shop armors set from storage enderface:shop trade_data

@@ -24,9 +24,9 @@
                             "tag": "{enderface_item:1b,click_events:{click_sounds:[{sound:\"ui.button.click\"}],change_gui:\"shop/potions\"}}"
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "hide_additional_tooltip": {}
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "potion_contents": false
                             }
                         }
                     ]

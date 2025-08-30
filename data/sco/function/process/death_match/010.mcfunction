@@ -27,6 +27,6 @@ execute if data storage sco:data block_area.input[0] run function sco:regine/blo
 #プロセス終了
 scoreboard players set #process game 11
 scoreboard players set #runtime game 0
-data merge storage timer: {time:30,mode:1,name:'{"text":"ステージ下見時間 残り時間 "}'}
+data merge storage timer: {time:30,mode:1,name:{"text":"ステージ下見時間 残り時間 "}}
 execute store result storage timer: time int 1 run scoreboard players get #stage_timer game
 function timer:input

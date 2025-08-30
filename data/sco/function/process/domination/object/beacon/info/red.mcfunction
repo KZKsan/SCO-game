@@ -6,6 +6,6 @@ scoreboard players operation # _ = #domination.capture_time game
 scoreboard players operation # _ -= @s stage_object.count.1
 scoreboard players operation # _ *= #100 _
 scoreboard players operation # _ /= #domination.capture_time game
-execute on passengers if entity @s[type=text_display,tag=beacon.info] run data modify entity @s text set value '{"text":""}'
-execute on passengers if entity @s[type=text_display,tag=beacon.info] run data modify entity @s text set value '[{"score":{"name": "#", "objective": "_"},"color":"red"},{"text": "%","color":"red"}]'
+execute on passengers if entity @s[type=text_display,tag=beacon.info] run data modify entity @s text set value {"text":""}
+execute on passengers if entity @s[type=text_display,tag=beacon.info] run data modify entity @s text set value [{"score":{"name": "#", "objective": "_"},"color":"red"},{"text": "%","color":"red"}]
 tag @s remove origin

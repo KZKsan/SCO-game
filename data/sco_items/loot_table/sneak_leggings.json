@@ -39,9 +39,14 @@
                             "components": {
                                 "trim": {
                                     "material": "diamond",
-                                    "pattern": "flow",
-                                    "show_in_tooltip": false
+                                    "pattern": "flow"
                                 }
+                            }
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "trim": false
                             }
                         }
                     ]

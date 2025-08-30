@@ -31,8 +31,7 @@
                             "components": {
                                 "trim": {
                                     "material": "redstone",
-                                    "pattern": "dune",
-                                    "show_in_tooltip": false
+                                    "pattern": "dune"
                                 }
                             }
                         },
@@ -78,6 +77,12 @@
                         {
                             "function": "set_custom_data",
                             "tag": "{item_functions:{show_durability:1b,using_damage:{active:1b,tick:0,interval:5,damage:0.025}}}"
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "trim": false
+                            }
                         }
                     ]
                 }
